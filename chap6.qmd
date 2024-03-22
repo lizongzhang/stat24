@@ -1,0 +1,40 @@
+---
+title: "第6章"
+---
+
+<h1 style="color: #044875;"> 第6章 统计量及其抽样分布 </h1>
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[讲义](https://lizongzhang.github.io/stat/chap6.html)
+
+<h3 style="color: #044875;"> 教学视频 </h3>
+
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel中dist inv函数的运用](https://www.bilibili.com/video/BV19Z4y1G7qF/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL利用norm.dist函数绘制正态分布概率密度曲线](https://www.bilibili.com/video/BV1Hi4y1L7Eg/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL利用chisq.dist函数绘制卡方分布概率密度曲线](https://www.bilibili.com/video/BV1F54y1k7sc/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL利用t.dist函数绘制t分布概率密度曲线](https://www.bilibili.com/video/BV1df4y1i7c9/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL利用f.dist函数绘制F分布概率密度曲线](https://www.bilibili.com/video/BV1KV41117mR/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[中心极限定理在R中的模拟](https://www.bilibili.com/video/BV1C44y1P7Pe){target="_blank"}
+
+
+<h3 style="color: #044875;"> 习题讲评 </h3>
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel图表工具综合运用——基金经理](https://www.bilibili.com/video/BV1UJ4m1b7Lb/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材第6章习题讲评](https://www.bilibili.com/video/BV1t3411W7V9/){target="_blank"}
+
+<h3 style="color: #044875;"> 拓展资源 </h3>
+
+-   分位数计算器 <https://gallery.shinyapps.io/dist_calc/>{target="_blank"}
+  
+-   Central Limit Theorem for Means
+              <https://gallery.shinyapps.io/CLT_mean/>{target="_blank"}
+  
+-   中心极限定理 n=2-31 <https://astools.datadesk.com/clt.html>{target="_blank"}
+  
+-   Galton Board <https://www.mathsisfun.com/data/quincunx.html>{target="_blank"}
