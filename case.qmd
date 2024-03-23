@@ -9,7 +9,7 @@ title: "小组案例与实验报告"
 
     -   示例
 
-        -   [第3-4章]<to be updated>
+        -   [第3-4章](https://lizongzhang.github.io/stat24/case1pre.html)
 
         -   [第7-8章](https://lizongzhang.github.io/stat/case2.html)
 
