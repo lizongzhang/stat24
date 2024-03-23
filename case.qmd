@@ -1,23 +1,36 @@
 ---
 title: "小组案例与实验报告"
 ---
+-   提交分组信息：<https://www.wjx.top/vm/e3AyWsR.aspx#>
 
-<h1 style="color: #044875;"> 第3章 图表工具 </h1>
+-   案例作业
 
-<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[讲义](https://lizongzhang.github.io/stat/chap3.html)
+    -   [要求](https://lizongzhang.github.io/stat/teamwork.html)
 
-<h3 style="color: #044875;"> 教学视频 </h3>
+    -   示例
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel图表工具合集](https://www.bilibili.com/video/BV1uK4y1X752/)
+        -   [第3-4章]<to be updated>
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL数据清洗合集](https://www.bilibili.com/video/BV1uc41177Mn/)
+        -   [第7-8章](https://lizongzhang.github.io/stat/case2.html)
 
-<h3 style="color: #044875;"> 习题讲评 </h3>
+        -   [第9-10章](https://lizongzhang.github.io/stat/case3.html)
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel图表工具综合运用——基金经理](https://www.bilibili.com/video/BV1UJ4m1b7Lb/)
+        -   [第11章](https://lizongzhang.github.io/stat/case4.html)
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材第3章习题讲评](https://www.bilibili.com/video/BV1t3411W7V9/)
+-   往届学生习作
 
-<h3 style="color: #044875;"> 拓展资源 </h3>
+    -   [广东省地市领导班子特征分析](https://lizongzhang.github.io/stat/stu1.html)
 
-在线词云图工具 <https://www.wordclouds.com/>
+    -   [奶茶消费调查](https://lizongzhang.github.io/stat/stu2.html)
+
+    -   [大学生择偶观调查](https://lizongzhang.github.io/stat/stu3.html)
+
+    -   [证监会录用人员特征](https://lizongzhang.github.io/stat/stu4.html)
+
+    -   [广州市住宅房租比较](https://lizongzhang.github.io/stat/stu5.html)
+
+    -   [饮料特征分析](https://lizongzhang.github.io/stat/stu6.html)
+
+    -   [证券分析师](https://lizongzhang.github.io/stat/stu7.html)
+
+-   [实验报告要求](https://lizongzhang.github.io/stat/report.html)

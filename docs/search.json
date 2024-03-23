@@ -4,7 +4,21 @@
     "href": "chap4.html",
     "title": "第4章",
     "section": "",
-    "text": "第4章 数据的概括性度量\n\n讲义\n\n教学视频\n\nExcel 计算描述性统计量的函数\nEXCEL数据分析加载项\nExcel 数据分析加载项中的描述统计功能\n\n习题讲评\n\n教材第4章习题讲评\n\n拓展资源"
+    "text": "讲义\n\n\nExcel 计算描述性统计量的函数\nEXCEL数据分析加载项\nExcel 数据分析加载项中的描述统计功能\n\n\n\n教材第4章习题讲评"
+  },
+  {
+    "objectID": "chap4.html#教学视频",
+    "href": "chap4.html#教学视频",
+    "title": "第4章",
+    "section": "",
+    "text": "Excel 计算描述性统计量的函数\nEXCEL数据分析加载项\nExcel 数据分析加载项中的描述统计功能"
+  },
+  {
+    "objectID": "chap4.html#习题讲评",
+    "href": "chap4.html#习题讲评",
+    "title": "第4章",
+    "section": "",
+    "text": "教材第4章习题讲评"
   },
   {
     "objectID": "chap7.html",
@@ -18,7 +32,21 @@
     "href": "chap2.html",
     "title": "第2章",
     "section": "",
-    "text": "第2章 数据的搜集\n\n讲义\n\n数据资源\n\n\nCSMAR 国泰安经济金融数据库 http://www.gtarsc.com/Home\n中国家庭追踪调查 CFPS http://www.isss.pku.edu.cn/cfps/\n中国家庭金融调查数据 CHFS https://chfs.swufe.edu.cn\n中国健康与养老数据追踪调查数据CHARLS http://charls.pku.edu.cn\n暨南大学社会调查中心 https://sdc-iesr.jnu.edu.cn\nKaggle https://www.kaggle.com/datasets\n\n\n教学视频\n\n如何从中国知网下载统计数据？\n八爪鱼客户端抓取网页数据？\n如何用Excel整理提取的网页数据？\n如何加载EXCEL数据分析加载项？\n如何将WORD文档转成图片？"
+    "text": "讲义\n\n\n如何从中国知网下载统计数据？\n八爪鱼客户端抓取网页数据？\n如何用Excel整理提取的网页数据？\n如何加载EXCEL数据分析加载项？\n如何将WORD文档转成图片？\n\n\n\n\nCSMAR 国泰安经济金融数据库 http://www.gtarsc.com/Home\n中国家庭追踪调查 CFPS http://www.isss.pku.edu.cn/cfps/\n中国家庭金融调查数据 CHFS https://chfs.swufe.edu.cn\n中国健康与养老数据追踪调查数据CHARLS http://charls.pku.edu.cn\n暨南大学社会调查中心 https://sdc-iesr.jnu.edu.cn\nKaggle https://www.kaggle.com/datasets"
+  },
+  {
+    "objectID": "chap2.html#教学视频",
+    "href": "chap2.html#教学视频",
+    "title": "第2章",
+    "section": "",
+    "text": "如何从中国知网下载统计数据？\n八爪鱼客户端抓取网页数据？\n如何用Excel整理提取的网页数据？\n如何加载EXCEL数据分析加载项？\n如何将WORD文档转成图片？"
+  },
+  {
+    "objectID": "chap2.html#数据资源",
+    "href": "chap2.html#数据资源",
+    "title": "第2章",
+    "section": "",
+    "text": "CSMAR 国泰安经济金融数据库 http://www.gtarsc.com/Home\n中国家庭追踪调查 CFPS http://www.isss.pku.edu.cn/cfps/\n中国家庭金融调查数据 CHFS https://chfs.swufe.edu.cn\n中国健康与养老数据追踪调查数据CHARLS http://charls.pku.edu.cn\n暨南大学社会调查中心 https://sdc-iesr.jnu.edu.cn\nKaggle https://www.kaggle.com/datasets"
   },
   {
     "objectID": "chap14.html",
@@ -58,14 +86,14 @@
   {
     "objectID": "chap8.html",
     "href": "chap8.html",
-    "title": "第9章",
+    "title": "第8章",
     "section": "",
     "text": "第3章 图表工具\n\n讲义\n\n教学视频\n\nExcel图表工具合集\nEXCEL数据清洗合集\n\n习题讲评\n\nExcel图表工具综合运用——基金经理\n教材第3章习题讲评\n\n拓展资源\n\n在线词云图工具 https://www.wordclouds.com/"
   },
   {
     "objectID": "chap9.html",
     "href": "chap9.html",
-    "title": "第3章",
+    "title": "第9章",
     "section": "",
     "text": "第3章 图表工具\n\n讲义\n\n教学视频\n\nExcel图表工具合集\nEXCEL数据清洗合集\n\n习题讲评\n\nExcel图表工具综合运用——基金经理\n教材第3章习题讲评\n\n拓展资源\n\n在线词云图工具 https://www.wordclouds.com/"
   },
@@ -81,7 +109,7 @@
     "href": "case.html",
     "title": "小组案例与实验报告",
     "section": "",
-    "text": "第3章 图表工具\n\n讲义\n\n教学视频\n\nExcel图表工具合集\nEXCEL数据清洗合集\n\n习题讲评\n\nExcel图表工具综合运用——基金经理\n教材第3章习题讲评\n\n拓展资源\n\n在线词云图工具 https://www.wordclouds.com/"
+    "text": "提交分组信息：https://www.wjx.top/vm/e3AyWsR.aspx#\n案例作业\n\n要求\n示例\n\n[第3-4章]\n第7-8章\n第9-10章\n第11章\n\n\n往届学生习作\n\n广东省地市领导班子特征分析\n奶茶消费调查\n大学生择偶观调查\n证监会录用人员特征\n广州市住宅房租比较\n饮料特征分析\n证券分析师\n\n实验报告要求"
   },
   {
     "objectID": "index.html",
@@ -95,20 +123,83 @@
     "href": "chap1.html",
     "title": "第1章",
     "section": "",
-    "text": "第1章 导论\n\n讲义\n\nR语言与统计应用课前准备\n\nR和R Studio的下载\nR和RStudio的安装\n若无法安装R和R Studio, 请观看：\n不用安装就能用的RStudio——RStudio Cloud\n\nRStudio Cloud\n\n\nposit cloud https://posit.cloud/"
+    "text": "讲义\n\n\nR和R Studio的下载\nR和RStudio的安装\n若无法安装R和R Studio, 请观看：\n不用安装就能用的RStudio——RStudio Cloud\n\n\n\n\nposit cloud https://posit.cloud/"
+  },
+  {
+    "objectID": "chap1.html#r语言与统计应用课前准备",
+    "href": "chap1.html#r语言与统计应用课前准备",
+    "title": "第1章",
+    "section": "",
+    "text": "R和R Studio的下载\nR和RStudio的安装\n若无法安装R和R Studio, 请观看：\n不用安装就能用的RStudio——RStudio Cloud"
+  },
+  {
+    "objectID": "chap1.html#rstudio-cloud",
+    "href": "chap1.html#rstudio-cloud",
+    "title": "第1章",
+    "section": "",
+    "text": "posit cloud https://posit.cloud/"
   },
   {
     "objectID": "chap3.html",
     "href": "chap3.html",
     "title": "第3章",
     "section": "",
-    "text": "第3章 图表工具\n\n讲义\n\n教学视频\n\nExcel图表工具合集\nEXCEL数据清洗合集\n\n习题讲评\n\nExcel图表工具综合运用——基金经理\n教材第3章习题讲评\n\n拓展资源\n\n在线词云图工具 https://www.wordclouds.com/"
+    "text": "讲义\n\n\nExcel图表工具合集\nEXCEL数据清洗合集\n\n\n\nExcel图表工具综合运用——基金经理\n教材第3章习题讲评\n\n\n\n在线词云图工具 https://www.wordclouds.com/"
+  },
+  {
+    "objectID": "chap3.html#教学视频",
+    "href": "chap3.html#教学视频",
+    "title": "第3章",
+    "section": "",
+    "text": "Excel图表工具合集\nEXCEL数据清洗合集"
+  },
+  {
+    "objectID": "chap3.html#习题讲评",
+    "href": "chap3.html#习题讲评",
+    "title": "第3章",
+    "section": "",
+    "text": "Excel图表工具综合运用——基金经理\n教材第3章习题讲评"
+  },
+  {
+    "objectID": "chap3.html#拓展资源",
+    "href": "chap3.html#拓展资源",
+    "title": "第3章",
+    "section": "",
+    "text": "在线词云图工具 https://www.wordclouds.com/"
   },
   {
     "objectID": "chap6.html",
     "href": "chap6.html",
     "title": "第6章",
     "section": "",
-    "text": "第6章 统计量及其抽样分布\n\n讲义\n\n教学视频\n\nExcel中dist inv函数的运用\nEXCEL利用norm.dist函数绘制正态分布概率密度曲线\nEXCEL利用chisq.dist函数绘制卡方分布概率密度曲线\nEXCEL利用t.dist函数绘制t分布概率密度曲线\nEXCEL利用f.dist函数绘制F分布概率密度曲线\n中心极限定理在R中的模拟\n\n习题讲评\n\nExcel图表工具综合运用——基金经理\n教材第6章习题讲评\n\n拓展资源\n\n\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html"
+    "text": "讲义\n\n\nEXCEL利用norm.dist函数绘制正态分布概率密度曲线\nEXCEL利用t.dist函数绘制t分布概率密度曲线\nEXCEL利用f.dist函数绘制F分布概率密度曲线\n\n\n\n\n\n第1题至第3题\n\n\n\n在同一个坐标系下，绘制N(0,1)、N(1, 4)、N(-2, 0.25)的概率密度曲线。\n在同一个坐标系下，绘制N(0,1)、t(5)、t(10)、t(30)的概率密度曲线。\n在同一个坐标系下，绘制\\(\\chi^2(5)\\)、\\(\\chi^2(10)\\)、\\(\\chi^2(30)\\)的概率密度曲线。\n在同一个坐标系下，绘制F(2,5)、F(5,10)、F(30,50)的概率密度曲线。\n答题要求：将绘制的概率密度曲线的图片上传至91速课平台。\n\n\n\n利用Excel生成如下分布的随机数，并绘制直方图。提交直方图的图片。\n2.1 生成服从自由度为5的卡方分布的500个随机数，绘制其直方图。\n2.2 生成服从自由度为5的t分布的500个随机数，绘制其直方图。\n2.3 生成服从自由度为30的卡方分布的500个随机数，绘制其直方图。\n2.4 生成服从F(5, 30)的500个随机数，绘制其直方图。\n\n\n\n\n\\(Z_{0.05} ; Z_{0.15} ; Z_{0.90}\\)\n\\(Z_{\\frac{0.01}{2}} ; Z_{\\frac{0.05}{2}} ; Z_{\\frac{0.10}{2}}\\)\n\\(X \\sim N(0,1), P(X&gt;2.5)=\\) ? \\(P(X&lt;-2)=\\) ? \\(P(|X|&gt;1.8)=\\) ?\n\\(t_{0.05}(8) ; \\frac{t_{0.05}^2}{2}(8) ; t_{0.95}(8)\\)\n\\(t_{0.05}(50) ; \\frac{t_{0.05}^2}{}(50) ; t_{0.95}(50)\\)\n\\(X \\sim t(8), P(X&gt;2)=\\) ? \\(P(X&lt;-1.8)=\\) ? \\(P(|X|&gt;2)=\\) ?\n\\(\\chi_{0.05}^2(5) ; \\chi_{0.95}^2(5) ; \\chi_{0.05}^2(15) ; \\quad \\chi_{0.95}^2(15)\\)\n\\(X \\sim \\chi^2(5), P(X&gt;9)=\\) ? ; \\(P(X&lt;1)=\\) ?\n\\(F_{0.05}(5,10) ; F_{0.95}(5,10)\\);\n\\(F_{0.05}(10,30) ; F_{0.95}(10,30)\\);\n\\(X \\sim F(5,10), P(X&gt;3)=\\) ?; \\(P(X&lt;1)=\\) ?"
+  },
+  {
+    "objectID": "chap6.html#教学视频",
+    "href": "chap6.html#教学视频",
+    "title": "第6章",
+    "section": "",
+    "text": "EXCEL利用norm.dist函数绘制正态分布概率密度曲线\nEXCEL利用t.dist函数绘制t分布概率密度曲线\nEXCEL利用f.dist函数绘制F分布概率密度曲线"
+  },
+  {
+    "objectID": "chap6.html#本章习题",
+    "href": "chap6.html#本章习题",
+    "title": "第6章",
+    "section": "",
+    "text": "第1题至第3题\n\n\n\n在同一个坐标系下，绘制N(0,1)、N(1, 4)、N(-2, 0.25)的概率密度曲线。\n在同一个坐标系下，绘制N(0,1)、t(5)、t(10)、t(30)的概率密度曲线。\n在同一个坐标系下，绘制\\(\\chi^2(5)\\)、\\(\\chi^2(10)\\)、\\(\\chi^2(30)\\)的概率密度曲线。\n在同一个坐标系下，绘制F(2,5)、F(5,10)、F(30,50)的概率密度曲线。\n答题要求：将绘制的概率密度曲线的图片上传至91速课平台。\n\n\n\n利用Excel生成如下分布的随机数，并绘制直方图。提交直方图的图片。\n2.1 生成服从自由度为5的卡方分布的500个随机数，绘制其直方图。\n2.2 生成服从自由度为5的t分布的500个随机数，绘制其直方图。\n2.3 生成服从自由度为30的卡方分布的500个随机数，绘制其直方图。\n2.4 生成服从F(5, 30)的500个随机数，绘制其直方图。\n\n\n\n\n\\(Z_{0.05} ; Z_{0.15} ; Z_{0.90}\\)\n\\(Z_{\\frac{0.01}{2}} ; Z_{\\frac{0.05}{2}} ; Z_{\\frac{0.10}{2}}\\)\n\\(X \\sim N(0,1), P(X&gt;2.5)=\\) ? \\(P(X&lt;-2)=\\) ? \\(P(|X|&gt;1.8)=\\) ?\n\\(t_{0.05}(8) ; \\frac{t_{0.05}^2}{2}(8) ; t_{0.95}(8)\\)\n\\(t_{0.05}(50) ; \\frac{t_{0.05}^2}{}(50) ; t_{0.95}(50)\\)\n\\(X \\sim t(8), P(X&gt;2)=\\) ? \\(P(X&lt;-1.8)=\\) ? \\(P(|X|&gt;2)=\\) ?\n\\(\\chi_{0.05}^2(5) ; \\chi_{0.95}^2(5) ; \\chi_{0.05}^2(15) ; \\quad \\chi_{0.95}^2(15)\\)\n\\(X \\sim \\chi^2(5), P(X&gt;9)=\\) ? ; \\(P(X&lt;1)=\\) ?\n\\(F_{0.05}(5,10) ; F_{0.95}(5,10)\\);\n\\(F_{0.05}(10,30) ; F_{0.95}(10,30)\\);\n\\(X \\sim F(5,10), P(X&gt;3)=\\) ?; \\(P(X&lt;1)=\\) ?"
+  },
+  {
+    "objectID": "chap6.html#习题讲评",
+    "href": "chap6.html#习题讲评",
+    "title": "第6章",
+    "section": "习题讲评",
+    "text": "习题讲评\n第1题：如何用Excel绘制三大分布概率密度曲线？\n第2题 如何用Excel生成服从t分布、卡方分布、F分布的随机数？\n第3题 Excel中dist inv函数的运用"
+  },
+  {
+    "objectID": "chap6.html#拓展资源",
+    "href": "chap6.html#拓展资源",
+    "title": "第6章",
+    "section": "拓展资源",
+    "text": "拓展资源\n\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html"
   }
 ]

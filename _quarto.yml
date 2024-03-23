@@ -29,8 +29,8 @@ website:
     left: "&copy; Copyright 2024, Li Zongzhang"
 format:
   html:
-    theme: yeti
-    toc: true
-
+    theme: 
+      light: [yeti, theme_light.scss]
+      #dark: [darkly, theme_dark.scss]
 editor: source
 
