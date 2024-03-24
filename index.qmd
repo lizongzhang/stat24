@@ -19,7 +19,7 @@ about:
 :::{#ppc style="color:#044875"}
 欢迎访问《统计学》课程网站！
 
-[R语言与统计应用课程网站](https://lizongzhang.github.io/R24/){target="_blank"}
+[R语言与统计应用课程网站](https://lizongzhang.github.io/r24/){target="_blank"}
 :::
 
 教材及配套数据
