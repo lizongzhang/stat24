@@ -1,7 +1,8 @@
 ---
-title: "<span style='font-size: 90px;'>广州6大品牌奶茶店消费价格分析——第3-4章</span>"
+title: "<span style='font-size: 80px;'>广州6大品牌奶茶店消费价格分析</span>"
+subtitle: "<span style='font-size: 80px;'>第3-4章</span>"
 date: today
-author: "Li Zongzhang"
+author: "<span style='color: #044875;'>Li Zongzhang</span>"
 format: 
   revealjs:
     incremental: FALSE
@@ -13,7 +14,7 @@ format:
     css: styles.css
     footer: <https://lizongzhang.github.io/stat24>
     include-before-body: header.html
-    code-block-height: 100px
+    code-block-height: 150px
 ---
 
 ## 1 数据和变量
@@ -95,6 +96,7 @@ data %>% ggplot(aes(fct_infreq(brand), fill = brand)) +
         legend.position = "bottom",
         legend.text = element_text(size = 10))
 ```
+市区、近郊、远郊门店数量排序一致
 
 ## 2.3 分组直方图
 
@@ -117,6 +119,7 @@ data %>%
         legend.position = "bottom",
         legend.text = element_text(size = 10))
 ```
+市区、近郊、远郊门店数量排序一致
 
 ## 2.4 分组箱线图
 
@@ -155,6 +158,8 @@ data %>%
         legend.text = element_text(size = 10))
 ```
 
+无论在市区、近郊、远郊，同一个品牌的团购价格相同。
+
 # 3 报告描述性统计量
 
 全样本
@@ -175,6 +180,41 @@ data %>%
   select(n, mean, sd, median, min, max, skew, kurtosis)
 ```
 
+## 表格中添加分布图像 {gtExtras}
+
+```{r}
+#| echo: TRUE
+library(gtExtras)
+
+data %>% 
+  select(retail.price, groupbuy.price) %>%
+  gt_plt_summary()
+```
+
+## 表格中添加分布图像 {gtExtras}
+
+```{r}
+#| echo: TRUE
+retail_group <- data %>% 
+  select(brand, retail.price) %>%
+  group_by(brand) %>%
+  summarize(mean = mean(retail.price) %>% round(3),
+            median = median(retail.price)%>% round(3),
+            sd = sd(retail.price)%>% round(3),
+            retail_t = list(retail.price))
+
+
+retail_group %>%
+  arrange(desc(mean)) %>% 
+  gt() %>% 
+  gt_plt_dist(retail_t,
+              type = "histogram",
+              line_color = "purple",
+              fill_color = "green",
+              bw = 1)
+```
+
+
 ## 3.2 分品牌零售价格比较
 
 ```{r}
@@ -191,6 +231,9 @@ data %>%
             sd = sd(retail.price)) %>% 
   arrange(desc(median))
 ```
+
+无论在市区、近郊、远郊，同一个品牌的团购价格相同。
+
 
 ## 3.3 分区域零售价格比较
 
@@ -211,6 +254,8 @@ data %>%
   arrange(desc(median))
 ```
 
+零售价格：市区>近郊>远郊
+
 # 4 研究结论
 
 -   门店数量：书亦烧仙草\>CoCo都可\>茶百道\>益禾堂\>TANNING\>喜茶
@@ -221,7 +266,9 @@ data %>%
 
 -   团购价格：喜茶\>TANNING\>茶百道\>CoCo都可\>益禾堂\>书亦烧仙草
 
--   无论在市区、近郊、远郊，同一个品牌的团购价格都是一样的。
+-   无论在市区、近郊、远郊，同一个品牌的团购价格相同。
+
+-   零售价格：市区>近郊>远郊
 
 # 5 经验分享
 
@@ -231,4 +278,13 @@ data %>%
 
 -   R代码
 
+-   {gtExtras}
+
 -   提炼结论
+
+## 
+
+<div style="text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 60px;white-space: nowrap;">
+Thank you for your attention！
+</div>
+
