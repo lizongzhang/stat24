@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="li zongzhang">
-<meta name="dcterms.date" content="2024-03-23">
+<meta name="dcterms.date" content="2024-03-28">
 
 <title>统计学24春 - Data Manipulation with dplyr</title>
 <style>
@@ -214,7 +214,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 23, 2024</p>
+      <p class="date">March 28, 2024</p>
     </div>
   </div>
   
@@ -321,7 +321,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  4 Darth Vader           202   136 male   Human   &lt;chr [4]&gt;
  5 Leia Organa           150    49 female Human   &lt;chr [5]&gt;
  6 Owen Lars             178   120 male   Human   &lt;chr [3]&gt;
- 7 Beru Whitesun lars    165    75 female Human   &lt;chr [3]&gt;
+ 7 Beru Whitesun Lars    165    75 female Human   &lt;chr [3]&gt;
  8 R5-D4                  97    32 none   Droid   &lt;chr [1]&gt;
  9 Biggs Darklighter     183    84 male   Human   &lt;chr [1]&gt;
 10 Obi-Wan Kenobi        182    77 male   Human   &lt;chr [6]&gt;
@@ -341,7 +341,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  4 Darth Vader           202   136
  5 Leia Organa           150    49
  6 Owen Lars             178   120
- 7 Beru Whitesun lars    165    75
+ 7 Beru Whitesun Lars    165    75
  8 R5-D4                  97    32
  9 Biggs Darklighter     183    84
 10 Obi-Wan Kenobi        182    77
@@ -361,7 +361,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  4 Darth Vader        Human   none          white       yellow   
  5 Leia Organa        Human   brown         light       brown    
  6 Owen Lars          Human   brown, grey   light       blue     
- 7 Beru Whitesun lars Human   brown         light       blue     
+ 7 Beru Whitesun Lars Human   brown         light       blue     
  8 R5-D4              Droid   &lt;NA&gt;          white, red  red      
  9 Biggs Darklighter  Human   black         light       brown    
 10 Obi-Wan Kenobi     Human   auburn, white fair        blue-gray
@@ -389,7 +389,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  6 R2-D2                     96    32 none           Droid          &lt;chr&gt;   34.7
  7 Grievous                 216   159 male           Kaleesh        &lt;chr&gt;   34.1
  8 R5-D4                     97    32 none           Droid          &lt;chr&gt;   34.0
- 9 Jek Tono Porkins         180   110 male           Human          &lt;chr&gt;   34.0
+ 9 Jek Tono Porkins         180   110 &lt;NA&gt;           &lt;NA&gt;           &lt;chr&gt;   34.0
 10 Darth Vader              202   136 male           Human          &lt;chr&gt;   33.3
 # ℹ 77 more rows</code></pre>
 </div>
@@ -404,7 +404,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  4 Darth Vader           202   136 male   Human   &lt;chr [4]&gt;
  5 Leia Organa           150    49 female Human   &lt;chr [5]&gt;
  6 Owen Lars             178   120 male   Human   &lt;chr [3]&gt;
- 7 Beru Whitesun lars    165    75 female Human   &lt;chr [3]&gt;
+ 7 Beru Whitesun Lars    165    75 female Human   &lt;chr [3]&gt;
  8 R5-D4                  97    32 none   Droid   &lt;chr [1]&gt;
  9 Biggs Darklighter     183    84 male   Human   &lt;chr [1]&gt;
 10 Obi-Wan Kenobi        182    77 male   Human   &lt;chr [6]&gt;
@@ -425,7 +425,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  6 Owen Lars                178   120 male           Human      &lt;chr&gt;        6
  7 Bossk                    190   113 male           Trandoshan &lt;chr&gt;        7
  8 Chewbacca                228   112 male           Wookiee    &lt;chr&gt;        8
- 9 Jek Tono Porkins         180   110 male           Human      &lt;chr&gt;        9
+ 9 Jek Tono Porkins         180   110 &lt;NA&gt;           &lt;NA&gt;       &lt;chr&gt;        9
 10 Dexter Jettster          198   102 male           Besalisk   &lt;chr&gt;       10
 # ℹ 77 more rows</code></pre>
 </div>
@@ -489,7 +489,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  4 Darth Vader           202    136 male   Human   &lt;chr [4]&gt;
  5 Leia Organa           150     49 female Human   &lt;chr [5]&gt;
  6 Owen Lars             178    120 male   Human   &lt;chr [3]&gt;
- 7 Beru Whitesun lars    165     75 female Human   &lt;chr [3]&gt;
+ 7 Beru Whitesun Lars    165     75 female Human   &lt;chr [3]&gt;
  8 R5-D4                  97     32 none   Droid   &lt;chr [1]&gt;
  9 Biggs Darklighter     183     84 male   Human   &lt;chr [1]&gt;
 10 Obi-Wan Kenobi        182     77 male   Human   &lt;chr [6]&gt;
@@ -509,7 +509,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  4 Darth Vader           202    136
  5 Leia Organa           150     49
  6 Owen Lars             178    120
- 7 Beru Whitesun lars    165     75
+ 7 Beru Whitesun Lars    165     75
  8 R5-D4                  97     32
  9 Biggs Darklighter     183     84
 10 Obi-Wan Kenobi        182     77
@@ -536,7 +536,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  4 Darth Vader           202   136  33.3
  5 Leia Organa           150    49  21.8
  6 Owen Lars             178   120  37.9
- 7 Beru Whitesun lars    165    75  27.5
+ 7 Beru Whitesun Lars    165    75  27.5
  8 R5-D4                  97    32  34.0
  9 Biggs Darklighter     183    84  25.1
 10 Obi-Wan Kenobi        182    77  23.2
@@ -649,7 +649,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  4 Darth Vader           202   136 male   Human   &lt;chr [4]&gt; large      
  5 Leia Organa           150    49 female Human   &lt;chr [5]&gt; small      
  6 Owen Lars             178   120 male   Human   &lt;chr [3]&gt; large      
- 7 Beru Whitesun lars    165    75 female Human   &lt;chr [3]&gt; small      
+ 7 Beru Whitesun Lars    165    75 female Human   &lt;chr [3]&gt; small      
  8 R5-D4                  97    32 none   Droid   &lt;chr [1]&gt; small      
  9 Biggs Darklighter     183    84 male   Human   &lt;chr [1]&gt; small      
 10 Obi-Wan Kenobi        182    77 male   Human   &lt;chr [6]&gt; small      
@@ -676,7 +676,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  4 Darth Vader           202   136 male   Human   &lt;chr [4]&gt;           1
  5 Leia Organa           150    49 female Human   &lt;chr [5]&gt;           2
  6 Owen Lars             178   120 male   Human   &lt;chr [3]&gt;           1
- 7 Beru Whitesun lars    165    75 female Human   &lt;chr [3]&gt;           2
+ 7 Beru Whitesun Lars    165    75 female Human   &lt;chr [3]&gt;           2
  8 R5-D4                  97    32 none   Droid   &lt;chr [1]&gt;           2
  9 Biggs Darklighter     183    84 male   Human   &lt;chr [1]&gt;           2
 10 Obi-Wan Kenobi        182    77 male   Human   &lt;chr [6]&gt;           2
@@ -693,7 +693,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  4 Darth Vader           202   136 male   Human   &lt;chr [4]&gt; large      
  5 Leia Organa           150    49 female Human   &lt;chr [5]&gt; small      
  6 Owen Lars             178   120 male   Human   &lt;chr [3]&gt; large      
- 7 Beru Whitesun lars    165    75 female Human   &lt;chr [3]&gt; small      
+ 7 Beru Whitesun Lars    165    75 female Human   &lt;chr [3]&gt; small      
  8 R5-D4                  97    32 none   Droid   &lt;chr [1]&gt; small      
  9 Biggs Darklighter     183    84 male   Human   &lt;chr [1]&gt; small      
 10 Obi-Wan Kenobi        182    77 male   Human   &lt;chr [6]&gt; small      
@@ -749,7 +749,7 @@ $ height  &lt;int&gt; 172, 167, 96, 202, 150, 178, 165, 97, 183, 182, 188, 180, 
 $ mass    &lt;dbl&gt; 77.0, 75.0, 32.0, 136.0, 49.0, 120.0, 75.0, 32.0, 84.0, 77.0, …
 $ sex     &lt;chr&gt; "male", "none", "none", "male", "female", "male", "female", "n…
 $ species &lt;chr&gt; "Human", "Droid", "Droid", "Human", "Human", "Human", "Human",…
-$ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Return of…
+$ films   &lt;list&gt; &lt;"A New Hope", "The Empire Strikes Back", "Return of the Jedi…
 $ vore    &lt;fct&gt; Human, Droid, Droid, Human, Human, Human, Human, Droid, Human,…</code></pre>
 </div>
 </div>
@@ -768,7 +768,7 @@ $ vore    &lt;fct&gt; Human, Droid, Droid, Human, Human, Human, Human, Droid, Hu
    name                  height  mass sex   species        films    
    &lt;chr&gt;                  &lt;int&gt; &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;          &lt;list&gt;   
  1 Yoda                      66    17 male  Yoda's species &lt;chr [5]&gt;
- 2 Ratts Tyerell             79    15 male  Aleena         &lt;chr [1]&gt;
+ 2 Ratts Tyerel              79    15 male  Aleena         &lt;chr [1]&gt;
  3 Wicket Systri Warrick     88    20 male  Ewok           &lt;chr [1]&gt;
  4 Dud Bolt                  94    45 male  Vulptereen     &lt;chr [1]&gt;
  5 R2-D2                     96    32 none  Droid          &lt;chr [7]&gt;
@@ -821,7 +821,7 @@ $ height  &lt;int&gt; 172, 167, 96, 202, 150, 178, 165, 97, 183, 182, 188, 180, 
 $ mass    &lt;dbl&gt; 77.0, 75.0, 32.0, 136.0, 49.0, 120.0, 75.0, 32.0, 84.0, 77.0, …
 $ sex     &lt;chr&gt; "male", "none", "none", "male", "female", "male", "female", "n…
 $ species &lt;chr&gt; "Human", "Droid", "Droid", "Human", "Human", "Human", "Human",…
-$ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Return of…</code></pre>
+$ films   &lt;list&gt; &lt;"A New Hope", "The Empire Strikes Back", "Return of the Jedi…</code></pre>
 </div>
 </div>
 </section>
@@ -833,14 +833,14 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>(starwars<span class="sc">$</span>species)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1] "Human"          "Droid"          "Wookiee"        "Rodian"        
- [5] "Hutt"           "Yoda's species" "Trandoshan"     "Mon Calamari"  
- [9] "Ewok"           "Sullustan"      "Neimodian"      "Gungan"        
-[13] NA               "Toydarian"      "Dug"            "Zabrak"        
-[17] "Twi'lek"        "Vulptereen"     "Xexto"          "Toong"         
-[21] "Cerean"         "Nautolan"       "Tholothian"     "Iktotchi"      
-[25] "Quermian"       "Kel Dor"        "Chagrian"       "Geonosian"     
-[29] "Mirialan"       "Clawdite"       "Besalisk"       "Kaminoan"      
-[33] "Aleena"         "Skakoan"        "Muun"           "Togruta"       
+ [5] "Hutt"           NA               "Yoda's species" "Trandoshan"    
+ [9] "Mon Calamari"   "Ewok"           "Sullustan"      "Neimodian"     
+[13] "Gungan"         "Toydarian"      "Dug"            "Zabrak"        
+[17] "Twi'lek"        "Aleena"         "Vulptereen"     "Xexto"         
+[21] "Toong"          "Cerean"         "Nautolan"       "Tholothian"    
+[25] "Iktotchi"       "Quermian"       "Kel Dor"        "Chagrian"      
+[29] "Geonosian"      "Mirialan"       "Clawdite"       "Besalisk"      
+[33] "Kaminoan"       "Skakoan"        "Muun"           "Togruta"       
 [37] "Kaleesh"        "Pau'an"        </code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb57"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="co">#提取species == "Droid"的个案</span></span>
@@ -883,20 +883,20 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(height <span class="sc">&lt;</span> <span class="dv">200</span>, species <span class="sc">==</span> <span class="st">"Human"</span>)  <span class="sc">%&gt;%</span> </span>
 <span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">arrange</span>(<span class="fu">desc</span>(height))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 30 × 6
-   name                height  mass sex   species films    
-   &lt;chr&gt;                &lt;int&gt; &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;   &lt;list&gt;   
- 1 Qui-Gon Jinn           193  89   male  Human   &lt;chr [1]&gt;
- 2 Dooku                  193  80   male  Human   &lt;chr [2]&gt;
- 3 Bail Prestor Organa    191  NA   male  Human   &lt;chr [2]&gt;
- 4 Anakin Skywalker       188  84   male  Human   &lt;chr [3]&gt;
- 5 Mace Windu             188  84   male  Human   &lt;chr [3]&gt;
- 6 Raymus Antilles        188  79   male  Human   &lt;chr [2]&gt;
- 7 Gregar Typho           185  85   male  Human   &lt;chr [1]&gt;
- 8 Biggs Darklighter      183  84   male  Human   &lt;chr [1]&gt;
- 9 Boba Fett              183  78.2 male  Human   &lt;chr [3]&gt;
-10 Cliegg Lars            183  NA   male  Human   &lt;chr [1]&gt;
-# ℹ 20 more rows</code></pre>
+<pre><code># A tibble: 29 × 6
+   name                height  mass sex    species films    
+   &lt;chr&gt;                &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;   &lt;list&gt;   
+ 1 Qui-Gon Jinn           193  89   male   Human   &lt;chr [1]&gt;
+ 2 Dooku                  193  80   male   Human   &lt;chr [2]&gt;
+ 3 Bail Prestor Organa    191  NA   male   Human   &lt;chr [2]&gt;
+ 4 Anakin Skywalker       188  84   male   Human   &lt;chr [3]&gt;
+ 5 Mace Windu             188  84   male   Human   &lt;chr [3]&gt;
+ 6 Raymus Antilles        188  79   male   Human   &lt;chr [2]&gt;
+ 7 Padmé Amidala          185  45   female Human   &lt;chr [3]&gt;
+ 8 Biggs Darklighter      183  84   male   Human   &lt;chr [1]&gt;
+ 9 Boba Fett              183  78.2 male   Human   &lt;chr [3]&gt;
+10 Ric Olié               183  NA   male   Human   &lt;chr [1]&gt;
+# ℹ 19 more rows</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb63"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a>starwars_selected</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -909,7 +909,7 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
  4 Darth Vader           202   136 male   Human   &lt;chr [4]&gt;
  5 Leia Organa           150    49 female Human   &lt;chr [5]&gt;
  6 Owen Lars             178   120 male   Human   &lt;chr [3]&gt;
- 7 Beru Whitesun lars    165    75 female Human   &lt;chr [3]&gt;
+ 7 Beru Whitesun Lars    165    75 female Human   &lt;chr [3]&gt;
  8 R5-D4                  97    32 none   Droid   &lt;chr [1]&gt;
  9 Biggs Darklighter     183    84 male   Human   &lt;chr [1]&gt;
 10 Obi-Wan Kenobi        182    77 male   Human   &lt;chr [6]&gt;
@@ -920,20 +920,20 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <span id="cb65-3"><a href="#cb65-3" aria-hidden="true" tabindex="-1"></a>         height <span class="sc">&lt;</span> <span class="dv">200</span> ) <span class="sc">%&gt;%</span> </span>
 <span id="cb65-4"><a href="#cb65-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">arrange</span>(<span class="fu">desc</span>(height))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 34 × 6
-   name                height  mass sex   species films    
-   &lt;chr&gt;                &lt;int&gt; &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;   &lt;list&gt;   
- 1 Qui-Gon Jinn           193  89   male  Human   &lt;chr [1]&gt;
- 2 Dooku                  193  80   male  Human   &lt;chr [2]&gt;
- 3 Bail Prestor Organa    191  NA   male  Human   &lt;chr [2]&gt;
- 4 Anakin Skywalker       188  84   male  Human   &lt;chr [3]&gt;
- 5 Mace Windu             188  84   male  Human   &lt;chr [3]&gt;
- 6 Raymus Antilles        188  79   male  Human   &lt;chr [2]&gt;
- 7 Gregar Typho           185  85   male  Human   &lt;chr [1]&gt;
- 8 Biggs Darklighter      183  84   male  Human   &lt;chr [1]&gt;
- 9 Boba Fett              183  78.2 male  Human   &lt;chr [3]&gt;
-10 Cliegg Lars            183  NA   male  Human   &lt;chr [1]&gt;
-# ℹ 24 more rows</code></pre>
+<pre><code># A tibble: 33 × 6
+   name                height  mass sex    species films    
+   &lt;chr&gt;                &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;   &lt;list&gt;   
+ 1 Qui-Gon Jinn           193  89   male   Human   &lt;chr [1]&gt;
+ 2 Dooku                  193  80   male   Human   &lt;chr [2]&gt;
+ 3 Bail Prestor Organa    191  NA   male   Human   &lt;chr [2]&gt;
+ 4 Anakin Skywalker       188  84   male   Human   &lt;chr [3]&gt;
+ 5 Mace Windu             188  84   male   Human   &lt;chr [3]&gt;
+ 6 Raymus Antilles        188  79   male   Human   &lt;chr [2]&gt;
+ 7 Padmé Amidala          185  45   female Human   &lt;chr [3]&gt;
+ 8 Biggs Darklighter      183  84   male   Human   &lt;chr [1]&gt;
+ 9 Boba Fett              183  78.2 male   Human   &lt;chr [3]&gt;
+10 Ric Olié               183  NA   male   Human   &lt;chr [1]&gt;
+# ℹ 23 more rows</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb67"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>starwars_selected</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -946,7 +946,7 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
  4 Darth Vader           202   136 male   Human   &lt;chr [4]&gt;
  5 Leia Organa           150    49 female Human   &lt;chr [5]&gt;
  6 Owen Lars             178   120 male   Human   &lt;chr [3]&gt;
- 7 Beru Whitesun lars    165    75 female Human   &lt;chr [3]&gt;
+ 7 Beru Whitesun Lars    165    75 female Human   &lt;chr [3]&gt;
  8 R5-D4                  97    32 none   Droid   &lt;chr [1]&gt;
  9 Biggs Darklighter     183    84 male   Human   &lt;chr [1]&gt;
 10 Obi-Wan Kenobi        182    77 male   Human   &lt;chr [6]&gt;
@@ -958,20 +958,20 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <span id="cb69-4"><a href="#cb69-4" aria-hidden="true" tabindex="-1"></a>         height <span class="sc">&lt;</span> <span class="dv">200</span> ) <span class="sc">%&gt;%</span> </span>
 <span id="cb69-5"><a href="#cb69-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">arrange</span>(<span class="fu">desc</span>(height)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 34 × 6
-   name                height  mass sex   species films    
-   &lt;chr&gt;                &lt;int&gt; &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;   &lt;list&gt;   
- 1 Qui-Gon Jinn           193  89   male  Human   &lt;chr [1]&gt;
- 2 Dooku                  193  80   male  Human   &lt;chr [2]&gt;
- 3 Bail Prestor Organa    191  NA   male  Human   &lt;chr [2]&gt;
- 4 Anakin Skywalker       188  84   male  Human   &lt;chr [3]&gt;
- 5 Mace Windu             188  84   male  Human   &lt;chr [3]&gt;
- 6 Raymus Antilles        188  79   male  Human   &lt;chr [2]&gt;
- 7 Gregar Typho           185  85   male  Human   &lt;chr [1]&gt;
- 8 Biggs Darklighter      183  84   male  Human   &lt;chr [1]&gt;
- 9 Boba Fett              183  78.2 male  Human   &lt;chr [3]&gt;
-10 Cliegg Lars            183  NA   male  Human   &lt;chr [1]&gt;
-# ℹ 24 more rows</code></pre>
+<pre><code># A tibble: 33 × 6
+   name                height  mass sex    species films    
+   &lt;chr&gt;                &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;   &lt;list&gt;   
+ 1 Qui-Gon Jinn           193  89   male   Human   &lt;chr [1]&gt;
+ 2 Dooku                  193  80   male   Human   &lt;chr [2]&gt;
+ 3 Bail Prestor Organa    191  NA   male   Human   &lt;chr [2]&gt;
+ 4 Anakin Skywalker       188  84   male   Human   &lt;chr [3]&gt;
+ 5 Mace Windu             188  84   male   Human   &lt;chr [3]&gt;
+ 6 Raymus Antilles        188  79   male   Human   &lt;chr [2]&gt;
+ 7 Padmé Amidala          185  45   female Human   &lt;chr [3]&gt;
+ 8 Biggs Darklighter      183  84   male   Human   &lt;chr [1]&gt;
+ 9 Boba Fett              183  78.2 male   Human   &lt;chr [3]&gt;
+10 Ric Olié               183  NA   male   Human   &lt;chr [1]&gt;
+# ℹ 23 more rows</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb71"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a>starwars_selected</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -984,7 +984,7 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
  4 Darth Vader           202   136 male   Human   &lt;chr [4]&gt;
  5 Leia Organa           150    49 female Human   &lt;chr [5]&gt;
  6 Owen Lars             178   120 male   Human   &lt;chr [3]&gt;
- 7 Beru Whitesun lars    165    75 female Human   &lt;chr [3]&gt;
+ 7 Beru Whitesun Lars    165    75 female Human   &lt;chr [3]&gt;
  8 R5-D4                  97    32 none   Droid   &lt;chr [1]&gt;
  9 Biggs Darklighter     183    84 male   Human   &lt;chr [1]&gt;
 10 Obi-Wan Kenobi        182    77 male   Human   &lt;chr [6]&gt;
@@ -1050,9 +1050,9 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <pre><code># A tibble: 3 × 14
   name      height  mass hair_color skin_color eye_color birth_year sex   gender
   &lt;chr&gt;      &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;      &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; 
-1 BB8           NA    NA none       none       black             NA none  mascu…
-2 Captain …     NA    NA unknown    unknown    unknown           NA &lt;NA&gt;  &lt;NA&gt;  
-3 Padmé Am…    165    45 brown      light      brown             46 fema… femin…
+1 Poe Dame…     NA    NA brown      light      brown             NA male  mascu…
+2 BB8           NA    NA none       none       black             NA none  mascu…
+3 Captain …     NA    NA none       none       unknown           NA fema… femin…
 # ℹ 5 more variables: homeworld &lt;chr&gt;, species &lt;chr&gt;, films &lt;list&gt;,
 #   vehicles &lt;list&gt;, starships &lt;list&gt;</code></pre>
 </div>
@@ -1062,11 +1062,11 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <pre><code># A tibble: 5 × 14
   name      height  mass hair_color skin_color eye_color birth_year sex   gender
   &lt;chr&gt;      &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;      &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; 
-1 Boba Fett    183  78.2 black      fair       brown           31.5 male  mascu…
-2 Captain …     NA  NA   unknown    unknown    unknown         NA   &lt;NA&gt;  &lt;NA&gt;  
-3 Quarsh P…    183  NA   black      dark       brown           62   &lt;NA&gt;  &lt;NA&gt;  
-4 Barriss …    166  50   black      yellow     blue            40   fema… femin…
-5 R4-P17        96  NA   none       silver, r… red, blue       NA   none  femin…
+1 Wedge An…    170    77 brown      fair       hazel             21 male  mascu…
+2 Ben Quad…    163    65 none       grey, gre… orange            NA male  mascu…
+3 Ackbar       180    83 none       brown mot… orange            41 male  mascu…
+4 Ki-Adi-M…    198    82 white      pale       yellow            92 male  mascu…
+5 Saesee T…    188    NA none       pale       orange            NA male  mascu…
 # ℹ 5 more variables: homeworld &lt;chr&gt;, species &lt;chr&gt;, films &lt;list&gt;,
 #   vehicles &lt;list&gt;, starships &lt;list&gt;</code></pre>
 </div>
@@ -1076,14 +1076,14 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <pre><code># A tibble: 8 × 14
   name      height  mass hair_color skin_color eye_color birth_year sex   gender
   &lt;chr&gt;      &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;      &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; 
-1 Dooku        193    80 white      fair       brown            102 male  mascu…
-2 Jek Tono…    180   110 brown      fair       blue              NA male  mascu…
-3 BB8           NA    NA none       none       black             NA none  mascu…
-4 Yoda          66    17 white      green      brown            896 male  mascu…
-5 Cordé        157    NA brown      light      brown             NA fema… femin…
-6 Dormé        165    NA brown      light      brown             NA fema… femin…
-7 Zam Wese…    168    55 blonde     fair, gre… yellow            NA fema… femin…
-8 Nien Nunb    160    68 none       grey       black             NA male  mascu…
+1 Mon Moth…    150    NA auburn     fair       blue              48 fema… femin…
+2 Nute Gun…    191    90 none       mottled g… red               NA male  mascu…
+3 R2-D2         96    32 &lt;NA&gt;       white, bl… red               33 none  mascu…
+4 Mas Amed…    196    NA none       blue       blue              NA male  mascu…
+5 Wedge An…    170    77 brown      fair       hazel             21 male  mascu…
+6 Rugor Na…    206    NA none       green      orange            NA male  mascu…
+7 Han Solo     180    80 brown      fair       brown             29 male  mascu…
+8 Ki-Adi-M…    198    82 white      pale       yellow            92 male  mascu…
 # ℹ 5 more variables: homeworld &lt;chr&gt;, species &lt;chr&gt;, films &lt;list&gt;,
 #   vehicles &lt;list&gt;, starships &lt;list&gt;</code></pre>
 </div>
@@ -1209,11 +1209,11 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <pre><code># A tibble: 5 × 2
   sex                n
   &lt;chr&gt;          &lt;dbl&gt;
-1 male           3564.
+1 male           3369.
 2 hermaphroditic 1358 
 3 female          492.
 4 none            279 
-5 &lt;NA&gt;             48 </code></pre>
+5 &lt;NA&gt;            243 </code></pre>
 </div>
 </div>
 </section>
@@ -1244,8 +1244,8 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <pre><code># A tibble: 4 × 4
   sex            number median_height median_weight
   &lt;chr&gt;           &lt;int&gt;         &lt;dbl&gt;         &lt;dbl&gt;
-1 male               44           183          80  
-2 female              9           168          55  
+1 male               42           183          80  
+2 female              9           170          55  
 3 none                4           132          53.5
 4 hermaphroditic      1           175        1358  </code></pre>
 </div>
@@ -1261,12 +1261,12 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 4 × 6
 # Groups:   sex [4]
-  name                  height  mass sex            species    films    
-  &lt;chr&gt;                  &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;          &lt;chr&gt;      &lt;list&gt;   
-1 Jabba Desilijic Tiure    175  1358 hermaphroditic Hutt       &lt;chr [3]&gt;
-2 IG-88                    200   140 none           Droid      &lt;chr [1]&gt;
-3 Adi Gallia               184    50 female         Tholothian &lt;chr [2]&gt;
-4 Tarfful                  234   136 male           Wookiee    &lt;chr [1]&gt;</code></pre>
+  name                  height  mass sex            species films    
+  &lt;chr&gt;                  &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;          &lt;chr&gt;   &lt;list&gt;   
+1 Jabba Desilijic Tiure    175  1358 hermaphroditic Hutt    &lt;chr [3]&gt;
+2 IG-88                    200   140 none           Droid   &lt;chr [1]&gt;
+3 Padmé Amidala            185    45 female         Human   &lt;chr [3]&gt;
+4 Tarfful                  234   136 male           Wookiee &lt;chr [1]&gt;</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb109"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb109-1"><a href="#cb109-1" aria-hidden="true" tabindex="-1"></a>starwars_selected <span class="sc">%&gt;%</span> </span>
 <span id="cb109-2"><a href="#cb109-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(height <span class="sc">!=</span> <span class="st">"NA"</span>, mass <span class="sc">!=</span> <span class="st">"NA"</span>, sex <span class="sc">!=</span> <span class="st">"NA"</span>) <span class="sc">%&gt;%</span> </span>
@@ -1278,7 +1278,7 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 # Groups:   sex [4]
   name                  height  mass sex            species films    
   &lt;chr&gt;                  &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;          &lt;chr&gt;   &lt;list&gt;   
-1 Beru Whitesun lars       165    75 female         Human   &lt;chr [3]&gt;
+1 Beru Whitesun Lars       165    75 female         Human   &lt;chr [3]&gt;
 2 Shaak Ti                 178    57 female         Togruta &lt;chr [2]&gt;
 3 Jabba Desilijic Tiure    175  1358 hermaphroditic Hutt    &lt;chr [3]&gt;
 4 Darth Vader              202   136 male           Human   &lt;chr [4]&gt;
@@ -1299,26 +1299,26 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 </div>
 <div class="sourceCode cell-code" id="cb113"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb113-1"><a href="#cb113-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(starwars<span class="sc">$</span>height,<span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 174.358</code></pre>
+<pre><code>[1] 174.6049</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb115"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb115-1"><a href="#cb115-1" aria-hidden="true" tabindex="-1"></a>starwars <span class="sc">%&gt;%</span> </span>
 <span id="cb115-2"><a href="#cb115-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(name, gender, hair_color, height) <span class="sc">%&gt;%</span> </span>
 <span id="cb115-3"><a href="#cb115-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">na.omit</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 73 × 4
+<pre><code># A tibble: 72 × 4
    name               gender    hair_color    height
    &lt;chr&gt;              &lt;chr&gt;     &lt;chr&gt;          &lt;int&gt;
  1 Luke Skywalker     masculine blond            172
  2 Darth Vader        masculine none             202
  3 Leia Organa        feminine  brown            150
  4 Owen Lars          masculine brown, grey      178
- 5 Beru Whitesun lars feminine  brown            165
+ 5 Beru Whitesun Lars feminine  brown            165
  6 Biggs Darklighter  masculine black            183
  7 Obi-Wan Kenobi     masculine auburn, white    182
  8 Anakin Skywalker   masculine blond            188
  9 Wilhuff Tarkin     masculine auburn, grey     180
 10 Chewbacca          masculine brown            228
-# ℹ 63 more rows</code></pre>
+# ℹ 62 more rows</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb117"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb117-1"><a href="#cb117-1" aria-hidden="true" tabindex="-1"></a>starwars</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1344,7 +1344,7 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <span id="cb119-3"><a href="#cb119-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(name, gender, hair_color, height) <span class="sc">%&gt;%</span> </span>
 <span id="cb119-4"><a href="#cb119-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">complete.cases</span>(.)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 14 × 4
+<pre><code># A tibble: 15 × 4
    name                  gender    hair_color height
    &lt;chr&gt;                 &lt;chr&gt;     &lt;chr&gt;       &lt;int&gt;
  1 C-3PO                 masculine &lt;NA&gt;          167
@@ -1352,15 +1352,16 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
  3 R5-D4                 masculine &lt;NA&gt;           97
  4 Greedo                masculine &lt;NA&gt;          173
  5 Jabba Desilijic Tiure masculine &lt;NA&gt;          175
- 6 Arvel Crynyd          masculine brown          NA
- 7 Ric Olié              &lt;NA&gt;      brown         183
- 8 Quarsh Panaka         &lt;NA&gt;      black         183
- 9 Sly Moore             &lt;NA&gt;      none          178
-10 Finn                  masculine black          NA
-11 Rey                   feminine  brown          NA
-12 Poe Dameron           masculine brown          NA
-13 BB8                   masculine none           NA
-14 Captain Phasma        &lt;NA&gt;      unknown        NA</code></pre>
+ 6 Jek Tono Porkins      &lt;NA&gt;      brown         180
+ 7 Arvel Crynyd          masculine brown          NA
+ 8 Gregar Typho          &lt;NA&gt;      black         185
+ 9 Cordé                 &lt;NA&gt;      brown         157
+10 Sly Moore             &lt;NA&gt;      none          178
+11 Finn                  masculine black          NA
+12 Rey                   feminine  brown          NA
+13 Poe Dameron           masculine brown          NA
+14 BB8                   masculine none           NA
+15 Captain Phasma        feminine  none           NA</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb121"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb121-1"><a href="#cb121-1" aria-hidden="true" tabindex="-1"></a>starwars</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1386,7 +1387,7 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <span id="cb123-3"><a href="#cb123-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">complete.cases</span>(.)) <span class="sc">%&gt;%</span> </span>
 <span id="cb123-4"><a href="#cb123-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(height)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 8 × 4
+<pre><code># A tibble: 9 × 4
   name                  gender    hair_color height
   &lt;chr&gt;                 &lt;chr&gt;     &lt;chr&gt;       &lt;int&gt;
 1 C-3PO                 masculine &lt;NA&gt;          167
@@ -1394,9 +1395,10 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 3 R5-D4                 masculine &lt;NA&gt;           97
 4 Greedo                masculine &lt;NA&gt;          173
 5 Jabba Desilijic Tiure masculine &lt;NA&gt;          175
-6 Ric Olié              &lt;NA&gt;      brown         183
-7 Quarsh Panaka         &lt;NA&gt;      black         183
-8 Sly Moore             &lt;NA&gt;      none          178</code></pre>
+6 Jek Tono Porkins      &lt;NA&gt;      brown         180
+7 Gregar Typho          &lt;NA&gt;      black         185
+8 Cordé                 &lt;NA&gt;      brown         157
+9 Sly Moore             &lt;NA&gt;      none          178</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb125"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb125-1"><a href="#cb125-1" aria-hidden="true" tabindex="-1"></a>starwars</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1422,20 +1424,20 @@ $ films   &lt;list&gt; &lt;"The Empire Strikes Back", "Revenge of the Sith", "Re
 <span id="cb127-3"><a href="#cb127-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">complete.cases</span>(.)) <span class="sc">%&gt;%</span> </span>
 <span id="cb127-4"><a href="#cb127-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">hair_color2 =</span> <span class="fu">replace_na</span>(hair_color, <span class="st">"none"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 73 × 5
+<pre><code># A tibble: 72 × 5
    name               gender    hair_color    height hair_color2  
    &lt;chr&gt;              &lt;chr&gt;     &lt;chr&gt;          &lt;int&gt; &lt;chr&gt;        
  1 Luke Skywalker     masculine blond            172 blond        
  2 Darth Vader        masculine none             202 none         
  3 Leia Organa        feminine  brown            150 brown        
  4 Owen Lars          masculine brown, grey      178 brown, grey  
- 5 Beru Whitesun lars feminine  brown            165 brown        
+ 5 Beru Whitesun Lars feminine  brown            165 brown        
  6 Biggs Darklighter  masculine black            183 black        
  7 Obi-Wan Kenobi     masculine auburn, white    182 auburn, white
  8 Anakin Skywalker   masculine blond            188 blond        
  9 Wilhuff Tarkin     masculine auburn, grey     180 auburn, grey 
 10 Chewbacca          masculine brown            228 brown        
-# ℹ 63 more rows</code></pre>
+# ℹ 62 more rows</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb129"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb129-1"><a href="#cb129-1" aria-hidden="true" tabindex="-1"></a>starwars         </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">

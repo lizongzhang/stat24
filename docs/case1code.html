@@ -681,53 +681,45 @@ Attaching package: 'psych'</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">describe</span>(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>                 vars   n   mean      sd median trimmed    mad  min      max
-No*                 1 336 168.50   97.14 168.50  168.50 124.54  1.0   336.00
-ID                  2 336 406.38  241.82 524.50  405.62 345.45 60.0   759.00
-brand*              3 336   3.40    1.72   3.00    3.38   1.48  1.0     6.00
-branch*             4 334 144.17   83.62 147.50  144.70 108.97  1.0   283.00
-star                5 336   3.73    0.36   3.50    3.69   0.00  3.0     4.50
-comment.num         6 336 564.28 1027.57 281.00  342.00 245.37 13.0 10598.00
-retail.price        7 336  15.60    5.26  15.00   14.78   2.97  7.0    35.00
-groupbuy.price      8 301  10.85    4.00  10.50   10.57   5.19  6.0    18.00
-groupbuy            9 336   0.90    0.31   1.00    0.99   0.00  0.0     1.00
-voucher            10 336   0.27    0.44   0.00    0.21   0.00  0.0     1.00
-voucher.price      11  90  35.20   26.17  55.00   37.00   0.00  1.0    55.00
-voucher.value      12  90  45.07   32.95  70.00   47.33   0.00  2.0    70.00
-voucher.save       13  90   9.87    6.78  15.00   10.33   0.00  1.0    15.00
-voucher.discount   14  90   0.68    0.14   0.79    0.69   0.00  0.5     0.79
-district*          15 336   6.35    2.42   6.00    6.23   2.97  1.0    11.00
-area*              16 336   1.59    0.65   1.50    1.50   0.74  1.0     3.00
-urban*             17 336   1.50    0.50   1.50    1.50   0.74  1.0     2.00
-                    range  skew kurtosis    se
-No*                335.00  0.00    -1.21  5.30
-ID                 699.00 -0.01    -1.64 13.19
-brand*               5.00  0.12    -1.22  0.09
-branch*            282.00 -0.05    -1.26  4.58
-star                 1.50  0.65    -0.14  0.02
-comment.num      10585.00  5.24    36.47 56.06
-retail.price        28.00  1.53     1.72  0.29
-groupbuy.price      12.00  0.22    -1.15  0.23
-groupbuy             1.00 -2.58     4.67  0.02
-voucher              1.00  1.04    -0.91  0.02
-voucher.price       54.00 -0.54    -1.72  2.76
-voucher.value       68.00 -0.54    -1.72  3.47
-voucher.save        14.00 -0.54    -1.72  0.72
-voucher.discount     0.29 -0.54    -1.72  0.01
-district*           10.00  0.40    -0.73  0.13
-area*                2.00  0.65    -0.61  0.04
-urban*               1.00  0.00    -2.01  0.03</code></pre>
+<pre><code>               vars   n   mean      sd median trimmed    mad min     max
+No                1 336 168.50   97.14  168.5  168.50 124.54   1   336.0
+ID                2 336 406.38  241.82  524.5  405.62 345.45  60   759.0
+brand*            3 336   3.40    1.72    3.0    3.38   1.48   1     6.0
+branch*           4 334 144.17   83.62  147.5  144.70 108.97   1   283.0
+star              5 336   3.73    0.36    3.5    3.69   0.00   3     4.5
+comment.num       6 336 564.28 1027.57  281.0  342.00 245.37  13 10598.0
+retail.price      7 336  15.60    5.26   15.0   14.78   2.97   7    35.0
+groupbuy.price    8 301  10.85    4.00   10.5   10.57   5.19   6    18.0
+groupbuy          9 336   0.90    0.31    1.0    0.99   0.00   0     1.0
+voucher          10 336   0.27    0.44    0.0    0.21   0.00   0     1.0
+district*        11 336   6.35    2.42    6.0    6.23   2.97   1    11.0
+area*            12 336   1.59    0.65    1.5    1.50   0.74   1     3.0
+urban*           13 336   1.50    0.50    1.5    1.50   0.74   1     2.0
+                 range  skew kurtosis    se
+No               335.0  0.00    -1.21  5.30
+ID               699.0 -0.01    -1.64 13.19
+brand*             5.0  0.12    -1.22  0.09
+branch*          282.0 -0.05    -1.26  4.58
+star               1.5  0.65    -0.14  0.02
+comment.num    10585.0  5.24    36.47 56.06
+retail.price      28.0  1.53     1.72  0.29
+groupbuy.price    12.0  0.22    -1.15  0.23
+groupbuy           1.0 -2.58     4.67  0.02
+voucher            1.0  1.04    -0.91  0.02
+district*         10.0  0.40    -0.73  0.13
+area*              2.0  0.65    -0.61  0.04
+urban*             1.0  0.00    -2.01  0.03</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>      No                  ID           brand              branch         
- Length:336         Min.   : 60.0   Length:336         Length:336        
- Class :character   1st Qu.:180.8   Class :character   Class :character  
- Mode  :character   Median :524.5   Mode  :character   Mode  :character  
-                    Mean   :406.4                                        
-                    3rd Qu.:640.2                                        
-                    Max.   :759.0                                        
-                                                                         
+<pre><code>       No               ID           brand              branch         
+ Min.   :  1.00   Min.   : 60.0   Length:336         Length:336        
+ 1st Qu.: 84.75   1st Qu.:180.8   Class :character   Class :character  
+ Median :168.50   Median :524.5   Mode  :character   Mode  :character  
+ Mean   :168.50   Mean   :406.4                                        
+ 3rd Qu.:252.25   3rd Qu.:640.2                                        
+ Max.   :336.00   Max.   :759.0                                        
+                                                                       
       star        comment.num       retail.price  groupbuy.price 
  Min.   :3.000   Min.   :   13.0   Min.   : 7.0   Min.   : 6.00  
  1st Qu.:3.500   1st Qu.:  137.5   1st Qu.:13.0   1st Qu.: 6.00  
@@ -736,22 +728,14 @@ urban*               1.00  0.00    -2.01  0.03</code></pre>
  3rd Qu.:4.000   3rd Qu.:  481.5   3rd Qu.:16.0   3rd Qu.:13.00  
  Max.   :4.500   Max.   :10598.0   Max.   :35.0   Max.   :18.00  
                                                   NA's   :35     
-    groupbuy         voucher       voucher.price  voucher.value  
- Min.   :0.0000   Min.   :0.0000   Min.   : 1.0   Min.   : 2.00  
- 1st Qu.:1.0000   1st Qu.:0.0000   1st Qu.: 1.0   1st Qu.: 2.00  
- Median :1.0000   Median :0.0000   Median :55.0   Median :70.00  
- Mean   :0.8958   Mean   :0.2679   Mean   :35.2   Mean   :45.07  
- 3rd Qu.:1.0000   3rd Qu.:1.0000   3rd Qu.:55.0   3rd Qu.:70.00  
- Max.   :1.0000   Max.   :1.0000   Max.   :55.0   Max.   :70.00  
-                                   NA's   :246    NA's   :246    
-  voucher.save    voucher.discount   district             area          
- Min.   : 1.000   Min.   :0.5000   Length:336         Length:336        
- 1st Qu.: 1.000   1st Qu.:0.5000   Class :character   Class :character  
- Median :15.000   Median :0.7900   Mode  :character   Mode  :character  
- Mean   : 9.867   Mean   :0.6837                                        
- 3rd Qu.:15.000   3rd Qu.:0.7900                                        
- Max.   :15.000   Max.   :0.7900                                        
- NA's   :246      NA's   :246                                           
+    groupbuy         voucher         district             area          
+ Min.   :0.0000   Min.   :0.0000   Length:336         Length:336        
+ 1st Qu.:1.0000   1st Qu.:0.0000   Class :character   Class :character  
+ Median :1.0000   Median :0.0000   Mode  :character   Mode  :character  
+ Mean   :0.8958   Mean   :0.2679                                        
+ 3rd Qu.:1.0000   3rd Qu.:1.0000                                        
+ Max.   :1.0000   Max.   :1.0000                                        
+                                                                        
     urban          
  Length:336        
  Class :character  

@@ -1,36 +1,67 @@
 ---
 title: "小组案例与实验报告"
 ---
--   提交分组信息：<https://www.wjx.top/vm/e3AyWsR.aspx#>
 
--   案例作业
+**提交分组信息：<https://www.wjx.top/vm/e3AyWsR.aspx#> **
 
-    -   [要求](https://lizongzhang.github.io/stat/teamwork.html)
+## 小组案例分析作业
 
-    -   示例
+-   [要求](https://lizongzhang.github.io/stat/teamwork.html)
 
-        -   [第3-4章](https://lizongzhang.github.io/stat24/case1pre.html)
+-   示例
 
-        -   [第7-8章](https://lizongzhang.github.io/stat/case2.html)
+    -   [第3-4章](https://lizongzhang.github.io/stat24/case1pre.html)
+  
+    -   [第7-8章](https://lizongzhang.github.io/stat/case2.html)
+  
+    -   [第9-10章](https://lizongzhang.github.io/stat/case3.html)
+  
+    -   [第11章](https://lizongzhang.github.io/stat/case4.html)
 
-        -   [第9-10章](https://lizongzhang.github.io/stat/case3.html)
+## 往届小组作业演示文稿
 
-        -   [第11章](https://lizongzhang.github.io/stat/case4.html)
+-   [饮料特征分析——第3-4章图表工具和描述统计R](https://lizongzhang.github.io/stat/stu6.html)
 
--   往届学生习作
+-   [广东省地市领导班子特征分析——第3章图表工具SPSS](https://lizongzhang.github.io/stat/stu1.html)
 
-    -   [广东省地市领导班子特征分析](https://lizongzhang.github.io/stat/stu1.html)
+-   [奶茶消费调查——第3章图表工具SPSS](https://lizongzhang.github.io/stat/stu2.html)
+    
+-   [证监会录用人员特征——第3章图表工具Excel](https://lizongzhang.github.io/stat/stu4.html)
 
-    -   [奶茶消费调查](https://lizongzhang.github.io/stat/stu2.html)
+-   [饮料特征分析——第7-8章区间估计和假设检验R](https://lizongzhang.github.io/stat/stu8.html)
 
-    -   [大学生择偶观调查](https://lizongzhang.github.io/stat/stu3.html)
+-   [证券分析师——第9-10章卡方检验和方差分析R](https://lizongzhang.github.io/stat/stu7.html)
 
-    -   [证监会录用人员特征](https://lizongzhang.github.io/stat/stu4.html)
+-   [饮料特征分析——第9-10章卡方检验和方差分析R](https://lizongzhang.github.io/stat/stu9.html)    
+    
+-   [广州市住宅房租比较——第10章方差分析SPSS](https://lizongzhang.github.io/stat/stu5.html) 
+    
+-   [大学生择偶观调查——第10章方差分析SPSS](https://lizongzhang.github.io/stat/stu3.html) 
+    
+## 实验报告    
 
-    -   [广州市住宅房租比较](https://lizongzhang.github.io/stat/stu5.html)
+-   [实验报告写作要求](https://lizongzhang.github.io/stat/report.html)
 
-    -   [饮料特征分析](https://lizongzhang.github.io/stat/stu6.html)
+-   [往届实验报告——饮料特征分析R](https://lizongzhang.github.io/stat/stu_report.html)
 
-    -   [证券分析师](https://lizongzhang.github.io/stat/stu7.html)
+## 第7周讨论课安排
 
--   [实验报告要求](https://lizongzhang.github.io/stat/report.html)
+### 讨论课前准备
+
+-  创建项目文件。
+
+-  在Excel中整理好收集的数据，将其导入到R Studio
+
+-  创建代码文件，绘制图表，计算描述性统计量。给代码添加注释和分节。
+
+-  遇到的问题和困难
+
+-  请带笔记本电脑。
+
+### 讨论时间表(见QQ群)
+
+
+
+
+
+
