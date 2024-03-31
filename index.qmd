@@ -7,7 +7,7 @@ about:
   links:
     - text: R语言与统计应用课程网站
       icon: globe2
-      href: https://lizongzhang.github.io/R24/
+      href: https://lizongzhang.github.io/r24/
     - text: B站主页
       icon: globe2
       href: https://space.bilibili.com/590872906

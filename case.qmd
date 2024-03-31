@@ -36,7 +36,9 @@ title: "小组案例与实验报告"
     
 -   [广州市住宅房租比较——第10章方差分析SPSS](https://lizongzhang.github.io/stat/stu5.html) 
     
--   [大学生择偶观调查——第10章方差分析SPSS](https://lizongzhang.github.io/stat/stu3.html) 
+-   [大学生择偶观调查——第10章方差分析SPSS](https://lizongzhang.github.io/stat/stu3.html)
+
+-   [饮料特征分析——第11章相关和回归分析R](https://lizongzhang.github.io/stat/stu10.html) 
     
 ## 实验报告    
 
