@@ -99,14 +99,6 @@ data %>%
   theme(axis.text.x = element_text(angle = 42, hjust = 1), 
         legend.position = "none")
 ```
-市区：Coco > 书亦烧仙草 > 喜茶。
-
-近郊：书亦烧仙草 > 茶百道 > Coco。
-
-远郊：书亦烧仙草 > 益禾堂 > Coco 。
-
-
-
 
 ## 2.3 分组直方图
 
@@ -273,8 +265,6 @@ data %>%
 # 4 研究结论
 
 -   门店数量：书亦烧仙草\>CoCo都可\>茶百道\>益禾堂\>TANNING\>喜茶
-
--   市区、近郊、远郊门店数量排序一致
 
 -   零售价格：喜茶\>茶百道\>TANNING\>CoCo都可\>书亦烧仙草\>益禾堂
 
