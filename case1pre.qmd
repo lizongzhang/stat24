@@ -83,20 +83,30 @@ data %>% ggplot(aes(fct_infreq(brand), fill = brand)) +
 
 ```{r}
 #| echo: TRUE
-data %>% ggplot(aes(fct_infreq(brand), fill = brand)) + 
-  geom_bar() +
-  geom_text(stat = "count", aes(label = after_stat(count)), vjust = -0.5, size = 3) + 
-  scale_y_continuous(limits = c(0,50))+
-  scale_fill_brewer(palette  = "Set3") +
-  facet_wrap(~area) +
-  guides(x = guide_axis(angle = 45)) +
-  labs(x = "品牌", fill = "品牌") +
-  theme_bw() +
-  theme(text = element_text(size = 15),
-        legend.position = "bottom",
-        legend.text = element_text(size = 10))
+
+data %>%
+  group_by(area, brand) %>%
+  summarise(count = n(), .groups = "drop") %>% 
+  mutate(brand_order = paste(brand, area, rank(-count), sep = "_"))  %>% 
+  ggplot(aes(reorder(brand_order, -count),
+             count, fill = brand)) +
+  geom_col()+
+  facet_wrap(~ area, scales = "free_x", ncol = 3) +
+  geom_text(aes(label = count), vjust = -0.5) +
+  scale_x_discrete(labels = function(x) gsub("_.+$", "", x)) + # 移除排序编号
+  scale_y_continuous(limits = c(0, 42)) +
+  labs(x = "品牌", y = "数量") +
+  theme(axis.text.x = element_text(angle = 42, hjust = 1), 
+        legend.position = "none")
 ```
-市区、近郊、远郊门店数量排序一致
+市区：Coco > 书亦烧仙草 > 喜茶。
+
+近郊：书亦烧仙草 > 茶百道 > Coco。
+
+远郊：书亦烧仙草 > 益禾堂 > Coco 。
+
+
+
 
 ## 2.3 分组直方图
 
@@ -106,7 +116,7 @@ data %>% ggplot(aes(fct_infreq(brand), fill = brand)) +
 data %>% 
   ggplot(aes(retail.price, fill = brand))+
   geom_histogram(breaks = seq(6, 38, 2))+
-  facet_wrap(~brand, ncol = 3) +
+  facet_wrap(~brand, ncol = 2) +
   scale_y_continuous(limits = c(0,60))+
   scale_fill_brewer(palette  = "Set1") +
   labs(title = "零售价直方图",
@@ -119,7 +129,7 @@ data %>%
         legend.position = "bottom",
         legend.text = element_text(size = 10))
 ```
-市区、近郊、远郊门店数量排序一致
+零售价格：喜茶\>茶百道\>TANNING\>CoCo都可\>书亦烧仙草\>益禾堂
 
 ## 2.4 分组箱线图
 
@@ -139,6 +149,7 @@ data %>%
   
 
 ```
+零售价格：喜茶\>茶百道\>TANNING\>CoCo都可\>书亦烧仙草\>益禾堂
 
 ## 2.5 散点图
 
@@ -158,7 +169,7 @@ data %>%
         legend.text = element_text(size = 10))
 ```
 
-无论在市区、近郊、远郊，同一个品牌的团购价格相同。
+无论在市区、近郊、远郊，同一品牌的团购价格相同。
 
 # 3 报告描述性统计量
 
@@ -180,7 +191,9 @@ data %>%
   select(n, mean, sd, median, min, max, skew, kurtosis)
 ```
 
-## 表格中添加分布图像 {gtExtras}
+## 表格中添加分布图像 
+
+**{gtExtras}**
 
 ```{r}
 #| echo: TRUE
@@ -191,7 +204,9 @@ data %>%
   gt_plt_summary()
 ```
 
-## 表格中添加分布图像 {gtExtras}
+## 表格中添加分布图像
+
+**{gtExtras}**
 
 ```{r}
 #| echo: TRUE
@@ -232,8 +247,7 @@ data %>%
   arrange(desc(median))
 ```
 
-无论在市区、近郊、远郊，同一个品牌的团购价格相同。
-
+零售价格：喜茶\>茶百道\>TANNING\>CoCo都可\>书亦烧仙草\>益禾堂
 
 ## 3.3 分区域零售价格比较
 
