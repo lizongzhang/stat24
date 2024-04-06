@@ -75,7 +75,7 @@ title: "第6章"
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第1题：如何用Excel绘制三大分布概率密度曲线？](https://www.bilibili.com/video/BV1xh4y1q7Ck/){target="_blank"}
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第2题 如何用Excel生成服从t分布、卡方分布、F分布的随机数？](https://www.bilibili.com/video/BV1UJ4m1b7Lb/){target="_blank"}
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第2题 如何用Excel生成服从t分布、卡方分布、F分布的随机数？](https://www.bilibili.com/video/BV1Kw41167cb/){target="_blank"}
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第3题 Excel中dist inv函数的运用](https://www.bilibili.com/video/BV19Z4y1G7qF/){target="_blank"}
 
