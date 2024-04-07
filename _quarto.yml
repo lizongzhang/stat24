@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "统计学24春"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - chap1.qmd
+      - chap2.qmd
+      - chap3.qmd
+      - chap4.qmd
+      - chap6.qmd
+      - chap7.qmd
+      - chap8.qmd
+      - chap9.qmd
+      - chap10.qmd
+      - chap11.qmd
+      - chap13.qmd
+      - chap14.qmd
+      - case.qmd
+    tools:
+      - icon: envelope
+        href: lizongzhang9@qq.com
+  page-footer:
+    right: "Statistics: turning data into insights."
+    left: "&copy; Copyright 2024, Li Zongzhang"
+format:
+  html:
+    theme: 
+      light: [yeti, theme_light.scss]
+      #dark: [darkly, theme_dark.scss]
+editor: source
+

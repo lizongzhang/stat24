@@ -1,0 +1,22 @@
+---
+title: "第1章"
+---
+
+# 第1章 导论
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[讲义](https://lizongzhang.github.io/stat/chap1.html){target="_blank"}
+
+## R语言与统计应用课前准备
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px;">[R和R Studio的下载](https://www.bilibili.com/video/BV1334y1y7U5/)
+
+<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[R和RStudio的安装](https://www.bilibili.com/video/BV1eR4y1V7uW/)
+
+若无法安装R和R Studio, 请观看：
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[不用安装就能用的RStudio------RStudio
+                Cloud](https://www.bilibili.com/video/BV1zY4y1M7HX/)
+
+ RStudio Cloud
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">posit cloud <https://posit.cloud/>

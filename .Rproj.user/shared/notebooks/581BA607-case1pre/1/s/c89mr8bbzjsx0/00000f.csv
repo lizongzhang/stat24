@@ -1,0 +1,8 @@
+"0","#| echo: FALSE"
+"0","par(family  = 'STKaiti')"
+"0","library(showtext)"
+"2","Loading required package: sysfonts
+"
+"2","Loading required package: showtextdb
+"
+"0","showtext_auto()"

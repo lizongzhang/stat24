@@ -1,0 +1,22 @@
+---
+title: "第10章"
+---
+
+<h1 style="color: #044875;"> 第10章 方差分析 </h1>
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[讲义](https://lizongzhang.github.io/stat/chap10.html)
+
+<h3 style="color: #044875;"> 教学视频 </h3>
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 单因素方差分析](https://www.bilibili.com/video/BV1nf4y1v71b/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 双因素方差分析](https://www.bilibili.com/video/BV18v411t7Hb/)
+
+<h3 style="color: #044875;"> 习题讲评 </h3>
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材第10章习题讲评](https://www.bilibili.com/video/BV1ok4y1H7FJ/)
+
+<h3 style="color: #044875;"> 拓展资源 </h3>
+
+
+
