@@ -1,0 +1,91 @@
+---
+title: "第6章"
+---
+
+# 第6章 统计量及其抽样分布
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[讲义](https://lizongzhang.github.io/stat/chap6.html)
+
+## 教学视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL利用norm.dist函数绘制正态分布概率密度曲线](https://www.bilibili.com/video/BV1Hi4y1L7Eg/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL利用t.dist函数绘制t分布概率密度曲线](https://www.bilibili.com/video/BV1df4y1i7c9/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL利用f.dist函数绘制F分布概率密度曲线](https://www.bilibili.com/video/BV1KV41117mR/){target="_blank"}
+
+
+## 本章习题
+
+<details>
+  <summary>第1题至第3题</summary>
+
+### 第1题
+
+在同一个坐标系下，绘制N(0,1)、N(1, 4)、N(-2, 0.25)的概率密度曲线。
+
+在同一个坐标系下，绘制N(0,1)、t(5)、t(10)、t(30)的概率密度曲线。
+
+在同一个坐标系下，绘制$\chi^2(5)$、$\chi^2(10)$、$\chi^2(30)$的概率密度曲线。
+
+在同一个坐标系下，绘制F(2,5)、F(5,10)、F(30,50)的概率密度曲线。
+
+答题要求：将绘制的概率密度曲线的图片上传至91速课平台。
+
+
+### 第2题 如何用Excel生成服从t分布、卡方分布、F分布的随机数？
+
+利用Excel生成如下分布的随机数，并绘制直方图。提交直方图的图片。
+
+2.1 生成服从自由度为5的卡方分布的500个随机数，绘制其直方图。
+
+2.2 生成服从自由度为5的t分布的500个随机数，绘制其直方图。
+
+2.3 生成服从自由度为30的卡方分布的500个随机数，绘制其直方图。
+
+2.4 生成服从F(5, 30)的500个随机数，绘制其直方图。
+
+### 第3题 利用Excel的函数工具计算
+
+1. $Z_{0.05} ; Z_{0.15} ; Z_{0.90}$
+
+2. $Z_{\frac{0.01}{2}} ; Z_{\frac{0.05}{2}} ; Z_{\frac{0.10}{2}}$
+
+3. $X \sim N(0,1), P(X>2.5)=$ ? $P(X<-2)=$ ? $P(|X|>1.8)=$ ?
+
+4. $t_{0.05}(8) ; t_{\frac{0.05}{2}}(8) ; t_{0.95}(8)$
+
+5. $t_{0.05}(50) ; t_{\frac{0.05}{2}}(50) ; t_{0.95}(50)$
+
+6. $X \sim t(8), P(X>2)=$ ? $P(X<-1.8)=$ ? $P(|X|>2)=$ ?
+
+7. $\chi_{0.05}^2(5) ; \chi_{0.95}^2(5) ; \chi_{0.05}^2(15) ; \quad \chi_{0.95}^2(15)$
+
+8. $X \sim \chi^2(5), P(X>9)=$ ? ; $P(X<1)=$ ?
+
+9. $F_{0.05}(5,10) ; F_{0.95}(5,10)$;
+
+10. $F_{0.05}(10,30) ; F_{0.95}(10,30)$;
+
+11. $X \sim F(5,10), P(X>3)=$ ?; $P(X<1)=$ ?
+</details>
+
+
+## 习题讲评
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第1题：如何用Excel绘制三大分布概率密度曲线？](https://www.bilibili.com/video/BV1xh4y1q7Ck/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第2题 如何用Excel生成服从t分布、卡方分布、F分布的随机数？](https://www.bilibili.com/video/BV1Kw41167cb/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第3题 Excel中dist inv函数的运用](https://www.bilibili.com/video/BV19Z4y1G7qF/){target="_blank"}
+
+## 拓展资源
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">分位数计算器 <https://gallery.shinyapps.io/dist_calc/>{target="_blank"}
+  
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">Central Limit Theorem for Means
+              <https://gallery.shinyapps.io/CLT_mean/>{target="_blank"}
+  
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中心极限定理 n=2-31 <https://astools.datadesk.com/clt.html>{target="_blank"}
+  
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">Galton Board <https://www.mathsisfun.com/data/quincunx.html>{target="_blank"}

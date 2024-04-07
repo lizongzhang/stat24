@@ -1,0 +1,20 @@
+---
+title: "第9章"
+---
+
+<h1 style="color: #044875;"> 第9章 分类数据 </h1>
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[讲义](https://lizongzhang.github.io/stat/chap9.html)
+
+<h3 style="color: #044875;"> 教学视频 </h3>
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 拟合优度检验 CHISQ.TEST函数的使用](https://www.bilibili.com/video/BV1454y167ko/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 独立性检验 CHISQ.TEST函数的使用](https://www.bilibili.com/video/BV19A411x7EU/)
+
+<h3 style="color: #044875;"> 习题讲评 </h3>
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材第9章习题讲评](https://www.bilibili.com/video/BV1pu411s7SQ/)
+
+<h3 style="color: #044875;"> 拓展资源 </h3>
+
