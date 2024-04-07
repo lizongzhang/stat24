@@ -6,45 +6,45 @@ title: "小组案例与实验报告"
 
 ## 小组案例分析作业
 
--   [要求](https://lizongzhang.github.io/stat/teamwork.html)
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[要求](https://lizongzhang.github.io/stat/teamwork.html)
 
 -   示例
 
-    -   [第3-4章](https://lizongzhang.github.io/stat24/case1pre.html)
+    -   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第3-4章](https://lizongzhang.github.io/stat24/case1pre.html)
   
-    -   [第7-8章](https://lizongzhang.github.io/stat/case2.html)
+    -   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第7-8章](https://lizongzhang.github.io/stat/case2.html)
   
-    -   [第9-10章](https://lizongzhang.github.io/stat/case3.html)
+    -   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第9-10章](https://lizongzhang.github.io/stat/case3.html)
   
-    -   [第11章](https://lizongzhang.github.io/stat/case4.html)
+    -   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第11章](https://lizongzhang.github.io/stat/case4.html)
 
 ## 往届小组作业演示文稿
 
--   [饮料特征分析——第3-4章图表工具和描述统计R](https://lizongzhang.github.io/stat/stu6.html)
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[饮料特征分析——第3-4章图表工具和描述统计R](https://lizongzhang.github.io/stat/stu6.html)
 
--   [广东省地市领导班子特征分析——第3章图表工具SPSS](https://lizongzhang.github.io/stat/stu1.html)
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[广东省地市领导班子特征分析——第3章图表工具SPSS](https://lizongzhang.github.io/stat/stu1.html)
 
--   [奶茶消费调查——第3章图表工具SPSS](https://lizongzhang.github.io/stat/stu2.html)
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[奶茶消费调查——第3章图表工具SPSS](https://lizongzhang.github.io/stat/stu2.html)
     
--   [证监会录用人员特征——第3章图表工具Excel](https://lizongzhang.github.io/stat/stu4.html)
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[证监会录用人员特征——第3章图表工具Excel](https://lizongzhang.github.io/stat/stu4.html)
 
--   [饮料特征分析——第7-8章区间估计和假设检验R](https://lizongzhang.github.io/stat/stu8.html)
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[饮料特征分析——第7-8章区间估计和假设检验R](https://lizongzhang.github.io/stat/stu8.html)
 
--   [证券分析师——第9-10章卡方检验和方差分析R](https://lizongzhang.github.io/stat/stu7.html)
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[证券分析师——第9-10章卡方检验和方差分析R](https://lizongzhang.github.io/stat/stu7.html)
 
--   [饮料特征分析——第9-10章卡方检验和方差分析R](https://lizongzhang.github.io/stat/stu9.html)    
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[饮料特征分析——第9-10章卡方检验和方差分析R](https://lizongzhang.github.io/stat/stu9.html)    
     
--   [广州市住宅房租比较——第10章方差分析SPSS](https://lizongzhang.github.io/stat/stu5.html) 
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[广州市住宅房租比较——第10章方差分析SPSS](https://lizongzhang.github.io/stat/stu5.html) 
     
--   [大学生择偶观调查——第10章方差分析SPSS](https://lizongzhang.github.io/stat/stu3.html)
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[大学生择偶观调查——第10章方差分析SPSS](https://lizongzhang.github.io/stat/stu3.html)
 
--   [饮料特征分析——第11章相关和回归分析R](https://lizongzhang.github.io/stat/stu10.html) 
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[饮料特征分析——第11章相关和回归分析R](https://lizongzhang.github.io/stat/stu10.html) 
     
 ## 实验报告    
 
--   [实验报告写作要求](https://lizongzhang.github.io/stat/report.html)
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[实验报告写作要求](https://lizongzhang.github.io/stat/report.html)
 
--   [往届实验报告——饮料特征分析R](https://lizongzhang.github.io/stat/stu_report.html)
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[往届实验报告——饮料特征分析R](https://lizongzhang.github.io/stat/stu_report.html)
 
 ## 第7周讨论课安排
 

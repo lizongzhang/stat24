@@ -106,7 +106,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -191,7 +191,50 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#dplyr函数概况" id="toc-dplyr函数概况" class="nav-link active" data-scroll-target="#dplyr函数概况">dplyr函数概况</a>
+  <ul class="collapse">
+  <li><a href="#dplyr函数的分类" id="toc-dplyr函数的分类" class="nav-link" data-scroll-target="#dplyr函数的分类">dplyr函数的分类</a></li>
+  <li><a href="#dplyr函数的共性-commonalities" id="toc-dplyr函数的共性-commonalities" class="nav-link" data-scroll-target="#dplyr函数的共性-commonalities">dplyr函数的共性 Commonalities</a></li>
+  </ul></li>
+  <li><a href="#列的管理column" id="toc-列的管理column" class="nav-link" data-scroll-target="#列的管理column">列的管理Column</a>
+  <ul class="collapse">
+  <li><a href="#select" id="toc-select" class="nav-link" data-scroll-target="#select">select()</a></li>
+  <li><a href="#mutate" id="toc-mutate" class="nav-link" data-scroll-target="#mutate">mutate()</a></li>
+  <li><a href="#rename" id="toc-rename" class="nav-link" data-scroll-target="#rename">rename()</a></li>
+  <li><a href="#transmute" id="toc-transmute" class="nav-link" data-scroll-target="#transmute">transmute()</a></li>
+  <li><a href="#relocate" id="toc-relocate" class="nav-link" data-scroll-target="#relocate">relocate()</a></li>
+  <li><a href="#if_else" id="toc-if_else" class="nav-link" data-scroll-target="#if_else">if_else()</a></li>
+  <li><a href="#recode" id="toc-recode" class="nav-link" data-scroll-target="#recode">recode()</a></li>
+  <li><a href="#duplicated" id="toc-duplicated" class="nav-link" data-scroll-target="#duplicated">duplicated()</a></li>
+  <li><a href="#as.factor" id="toc-as.factor" class="nav-link" data-scroll-target="#as.factor">as.factor()</a></li>
+  </ul></li>
+  <li><a href="#行的管理rows" id="toc-行的管理rows" class="nav-link" data-scroll-target="#行的管理rows">行的管理Rows</a>
+  <ul class="collapse">
+  <li><a href="#arrange" id="toc-arrange" class="nav-link" data-scroll-target="#arrange">arrange()</a></li>
+  <li><a href="#filter" id="toc-filter" class="nav-link" data-scroll-target="#filter">filter()</a></li>
+  <li><a href="#slice" id="toc-slice" class="nav-link" data-scroll-target="#slice">slice()</a></li>
+  <li><a href="#distinct" id="toc-distinct" class="nav-link" data-scroll-target="#distinct">distinct()</a></li>
+  </ul></li>
+  <li><a href="#分组和概要-groupby-and-summarize" id="toc-分组和概要-groupby-and-summarize" class="nav-link" data-scroll-target="#分组和概要-groupby-and-summarize">分组和概要 groupby and summarize</a>
+  <ul class="collapse">
+  <li><a href="#count" id="toc-count" class="nav-link" data-scroll-target="#count">count()</a></li>
+  <li><a href="#group_by" id="toc-group_by" class="nav-link" data-scroll-target="#group_by">group_by()</a></li>
+  <li><a href="#summarize" id="toc-summarize" class="nav-link" data-scroll-target="#summarize">summarize()</a></li>
+  <li><a href="#top_n" id="toc-top_n" class="nav-link" data-scroll-target="#top_n">top_n()</a></li>
+  <li><a href="#缺失值-missing-data" id="toc-缺失值-missing-data" class="nav-link" data-scroll-target="#缺失值-missing-data">缺失值 Missing data</a></li>
+  </ul></li>
+  <li><a href="#总结" id="toc-总结" class="nav-link" data-scroll-target="#总结">总结</a>
+  <ul class="collapse">
+  <li><a href="#本章作业" id="toc-本章作业" class="nav-link" data-scroll-target="#本章作业">本章作业</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -1062,11 +1105,11 @@ $ films   &lt;list&gt; &lt;"A New Hope", "The Empire Strikes Back", "Return of t
 <pre><code># A tibble: 5 × 14
   name      height  mass hair_color skin_color eye_color birth_year sex   gender
   &lt;chr&gt;      &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;      &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; 
-1 Han Solo     180    80 brown      fair       brown             29 male  mascu…
-2 C-3PO        167    75 &lt;NA&gt;       gold       yellow           112 none  mascu…
-3 Lama Su      229    88 none       grey       black             NA male  mascu…
-4 Darth Ma…    175    80 none       red        yellow            54 male  mascu…
-5 Ki-Adi-M…    198    82 white      pale       yellow            92 male  mascu…
+1 Boba Fett    183  78.2 black      fair       brown           31.5 male  mascu…
+2 Finis Va…    170  NA   blond      fair       blue            91   male  mascu…
+3 Mace Win…    188  84   none       dark       brown           72   male  mascu…
+4 Wilhuff …    180  NA   auburn, g… fair       blue            64   male  mascu…
+5 Rey           NA  NA   brown      light      hazel           NA   fema… femin…
 # ℹ 5 more variables: homeworld &lt;chr&gt;, species &lt;chr&gt;, films &lt;list&gt;,
 #   vehicles &lt;list&gt;, starships &lt;list&gt;</code></pre>
 </div>
@@ -1076,14 +1119,14 @@ $ films   &lt;list&gt; &lt;"A New Hope", "The Empire Strikes Back", "Return of t
 <pre><code># A tibble: 8 × 14
   name      height  mass hair_color skin_color eye_color birth_year sex   gender
   &lt;chr&gt;      &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;      &lt;chr&gt;          &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; 
-1 Gasgano      122    NA none       white, bl… black           NA   male  mascu…
-2 Anakin S…    188    84 blond      fair       blue            41.9 male  mascu…
-3 Mas Amed…    196    NA none       blue       blue            NA   male  mascu…
-4 Wedge An…    170    77 brown      fair       hazel           21   male  mascu…
-5 Grievous     216   159 none       brown, wh… green, y…       NA   male  mascu…
-6 Lobot        175    79 none       light      blue            37   male  mascu…
-7 San Hill     191    NA none       grey       gold            NA   male  mascu…
-8 Dud Bolt      94    45 none       blue, grey yellow          NA   male  mascu…
+1 Bail Pre…    191    NA black      tan        brown             67 male  mascu…
+2 Mas Amed…    196    NA none       blue       blue              NA male  mascu…
+3 Beru Whi…    165    75 brown      light      blue              47 fema… femin…
+4 C-3PO        167    75 &lt;NA&gt;       gold       yellow           112 none  mascu…
+5 Quarsh P…    183    NA black      dark       brown             62 male  mascu…
+6 Wat Tamb…    193    48 none       green, gr… unknown           NA male  mascu…
+7 Mace Win…    188    84 none       dark       brown             72 male  mascu…
+8 Finis Va…    170    NA blond      fair       blue              91 male  mascu…
 # ℹ 5 more variables: homeworld &lt;chr&gt;, species &lt;chr&gt;, films &lt;list&gt;,
 #   vehicles &lt;list&gt;, starships &lt;list&gt;</code></pre>
 </div>

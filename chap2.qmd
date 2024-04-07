@@ -19,11 +19,8 @@ title: "第2章"
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何将WORD文档转成图片？](https://www.bilibili.com/video/BV1GU4y1f7f9/)
 
-<<<<<<< HEAD
-## 拓展资源
-=======
 ## 数据资源
->>>>>>> 33838a35145a6bd269135038b15c872bead09e10
+
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">CSMAR 国泰安经济金融数据库  <http://www.gtarsc.com/Home>
         
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中国家庭追踪调查 CFPS <http://www.isss.pku.edu.cn/cfps/>

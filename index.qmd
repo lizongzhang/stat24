@@ -22,11 +22,11 @@ about:
 [R语言与统计应用课程网站](https://lizongzhang.github.io/r24/){target="_blank"}
 :::
 
-教材及配套数据
+教材
 
 - 统计学(第8版), 贾俊平 何晓群 金勇进编著，中国人民大学出版社,2021.
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">百度网盘: <https://pan.baidu.com/s/1FoxKUNoDfDh5aFOuds_vXg?pwd=6789>
+<img src="img/download.png" style="width: 24px; height: 24px;margin-right: 10px">[下载教材及配套数据文件](https://pan.baidu.com/s/1FoxKUNoDfDh5aFOuds_vXg?pwd=6789)
 
 
 教学软件
@@ -45,7 +45,7 @@ about:
 
 教学平台
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">91速课(<https://www.91suke.com>)：发布作业，提交作业，测验，考勤等
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[91速课](https://www.91suke.com)：发布作业，提交作业，测验，考勤等
 
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[在91速课中设置姓名和学号的方法](https://lizongzhang.github.io/stat/91.html)
 
@@ -53,7 +53,7 @@ about:
 
 参考书
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[百度网盘](https://pan.baidu.com/s/1LOwZbv1DVy1eJr-C4xeX1Q)  提取码: reel
+<img src="img/download.png" style="width: 24px; height: 24px;margin-right: 10px">[下载](https://pan.baidu.com/s/1LOwZbv1DVy1eJr-C4xeX1Q)  提取码: reel
 
 
 <div style="text-align: center;">![](img/bili_up.jpg){width=10%}</div>
