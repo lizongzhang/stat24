@@ -19,4 +19,4 @@ title: "第1章"
 
 ## RStudio Cloud
 
--   posit cloud <https://posit.cloud/>
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">posit cloud <https://posit.cloud/>

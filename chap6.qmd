@@ -81,11 +81,11 @@ title: "第6章"
 
 ## 拓展资源
 
--   分位数计算器 <https://gallery.shinyapps.io/dist_calc/>{target="_blank"}
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">分位数计算器 <https://gallery.shinyapps.io/dist_calc/>{target="_blank"}
   
--   Central Limit Theorem for Means
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">Central Limit Theorem for Means
               <https://gallery.shinyapps.io/CLT_mean/>{target="_blank"}
   
--   中心极限定理 n=2-31 <https://astools.datadesk.com/clt.html>{target="_blank"}
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中心极限定理 n=2-31 <https://astools.datadesk.com/clt.html>{target="_blank"}
   
--   Galton Board <https://www.mathsisfun.com/data/quincunx.html>{target="_blank"}
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">Galton Board <https://www.mathsisfun.com/data/quincunx.html>{target="_blank"}

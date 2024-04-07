@@ -19,4 +19,4 @@ title: "第3章"
 
 ## 拓展资源
 
-在线词云图工具 <https://www.wordclouds.com/>
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> 在线词云图工具 <https://www.wordclouds.com/>
