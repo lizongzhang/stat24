@@ -58,7 +58,7 @@ about:
 
 <div style="text-align: center;">![](img/bili_up.jpg){width=10%}</div>
 
-<div style="position: fixed; bottom: 60px; right: 70px; z-index: 1000;">
+<div style="position: fixed; bottom: 10px; right: 70px; z-index: 1000;">
 
    <a href='http://www.freevisitorcounters.com'>click here</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=a1b2bcf47de785ab152ba2b2353aa09bd4f80670'></script>
   <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1174168/t/5"></script>
