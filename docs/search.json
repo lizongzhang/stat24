@@ -291,14 +291,14 @@
     "href": "case2pre.html#研究结论",
     "title": "汽车性能分析",
     "section": "6 研究结论",
-    "text": "6 研究结论\n\n油耗：城市道路均值&gt;16 miles/gallon, 高速均值&gt;22 miles/gallon\n城市道路：四驱(14 miles/gallon) &lt; 前驱(20 miles/gallon)\n城市道路：自动挡(？14 miles/gallon) &lt; 手动挡(20 miles/gallon)\n高速道路：四驱(19 miles/gallon) &lt; 前驱(28 miles/gallon)\n城市道路：自动挡(？14 miles/gallon) &lt; 手动挡(20 miles/gallon)"
+    "text": "6 研究结论\n\n油耗：城市道路均值&gt;16 miles/gallon, 高速均值&gt;22 miles/gallon\n城市道路：四驱(14 miles/gallon) &lt; 前驱(20 miles/gallon)\n高速道路：四驱(20 miles/gallon) &lt; 前驱(29 miles/gallon)\n城市道路：自动挡(16 miles/gallon) &lt; 手动挡(19 miles/gallon)\n高速道路：四驱(22 miles/gallon) &lt; 前驱(26 miles/gallon)"
   },
   {
     "objectID": "case2pre.html#研究结论-1",
     "href": "case2pre.html#研究结论-1",
     "title": "汽车性能分析",
     "section": "6 研究结论",
-    "text": "6 研究结论\n\n四驱、前驱、后驱：45%，45%， 10%\n驱动类型和传动类型相互独立。\n驱动类型和气缸数量不独立。\n\n4缸，72%前驱，28%四驱\n6缸，54%前驱， 41%四驱，5%后驱\n8缸，1%前驱， 69%四驱，30%后驱"
+    "text": "6 研究结论\n\n油耗：城市道路大于高速\n油耗：四驱大于前驱，高速路比城市道路的差距更大。\n油耗：自动档大于手动挡，高速路比城市道路的差距更大"
   },
   {
     "objectID": "case2pre.html#section",
@@ -530,5 +530,12 @@
     "title": "第6章",
     "section": "拓展资源",
     "text": "拓展资源\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html"
+  },
+  {
+    "objectID": "case2pre.html#研究结论-2",
+    "href": "case2pre.html#研究结论-2",
+    "title": "汽车性能分析",
+    "section": "6 研究结论",
+    "text": "6 研究结论\n\n四驱、前驱、后驱：45%，45%， 10%\n驱动类型和传动类型相互独立。\n驱动类型和气缸数量不独立。\n\n4缸，72%前驱，28%四驱\n6缸，54%前驱， 41%四驱，5%后驱\n8缸，1%前驱， 69%四驱，30%后驱"
   }
 ]

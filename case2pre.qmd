@@ -250,11 +250,20 @@ ggbarstats(mpg,
 
 -   城市道路：四驱(14 miles/gallon) < 前驱(20 miles/gallon)
 
--   城市道路：自动挡(？14 miles/gallon) < 手动挡(20 miles/gallon)
+-   高速道路：四驱(20 miles/gallon) < 前驱(29 miles/gallon)
 
--   高速道路：四驱(19 miles/gallon) < 前驱(28 miles/gallon)
+-   城市道路：自动挡(16 miles/gallon) < 手动挡(19 miles/gallon)
 
--   城市道路：自动挡(？14 miles/gallon) < 手动挡(20 miles/gallon)
+-   高速道路：四驱(22 miles/gallon) < 前驱(26 miles/gallon)
+
+## 6 研究结论
+
+-   油耗：城市道路大于高速
+
+-   油耗：四驱大于前驱，高速路比城市道路的差距更大。
+
+-   油耗：自动档大于手动挡，高速路比城市道路的差距更大
+
 
 
 ## 6 研究结论
