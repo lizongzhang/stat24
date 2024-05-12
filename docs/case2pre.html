@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.4.551">
 
   <meta name="author" content="Li Zongzhang">
-  <meta name="dcterms.date" content="2024-05-12">
+  <meta name="dcterms.date" content="2024-05-13">
   <title>统计学24春 - 汽车性能分析</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -396,7 +396,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title"><span style="font-size: 80px;">汽车性能分析</span></h1>
-  <p class="subtitle"><span style="font-size: 80px;">第7-9章</span></p>
+  <p class="subtitle"><span style="font-size: 80px;">第8-9章</span></p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -406,7 +406,7 @@
 </div>
 </div>
 
-  <p class="date">2024-05-12</p>
+  <p class="date">2024-05-13</p>
 </section>
 <section id="数据和变量" class="slide level2">
 <h2>1 数据和变量</h2>
@@ -414,6 +414,9 @@
 <p>样本容量：234</p>
 <p>cty: city miles per gallon</p>
 <p>hwy: highway miles per gallon</p>
+<ul>
+<li>英里每加仑，数值越大，代表越省油。</li>
+</ul>
 <p>trans: type of transmission</p>
 <p>drv: the type of drive train,</p>
 <ul>
@@ -426,18 +429,12 @@
 <h2>2 油耗性能分析</h2>
 <p>2.1 cty均值的检验</p>
 <p>2.2 hwy均值的检验</p>
-<p>2.3 四驱和前驱城市道路油耗比较</p>
-<p>2.4 四驱和前驱高速道路油耗比较</p>
-<p>2.5 自动档和手动挡城市道路油耗比较</p>
-<p>2.5 自动档和手动挡高速道路油耗比较</p>
+<p>2.3 四驱和前驱城市油耗比较</p>
+<p>2.4 四驱和前驱高速油耗比较</p>
+<p>2.5 自动档和手动挡城市油耗比较</p>
+<p>2.5 自动档和手动挡高速油耗比较</p>
 </section>
 <section id="cty均值的检验" class="slide level2">
-<h2>2.1 cty均值的检验</h2>
-<p><span class="math inline">\(H_0: \mu \leq 16\)</span></p>
-<p><span class="math inline">\(H_1: \mu &gt; 16\)</span></p>
-<p>拒绝原假设<span class="math inline">\(H_0: \mu \leq 16\)</span> 。</p>
-</section>
-<section id="cty均值的检验-1" class="slide level2">
 <h2>2.1 cty均值的检验</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">gghistostats</span>(mpg, cty, </span>
@@ -448,13 +445,14 @@
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
-<section id="hwy均值的检验" class="slide level2">
-<h2>2.2 hwy均值的检验</h2>
-<p><span class="math inline">\(H_0: \mu \leq 22\)</span></p>
-<p><span class="math inline">\(H_1: \mu &gt; 22\)</span></p>
-<p>拒绝原假设<span class="math inline">\(H_0: \mu \leq 22\)</span> 。</p>
+<section id="cty均值的检验-1" class="slide level2">
+<h2>2.1 cty均值的检验</h2>
+<p><span class="math inline">\(H_0: \mu \leq 16\)</span></p>
+<p><span class="math inline">\(H_1: \mu &gt; 16\)</span></p>
+<p>拒绝原假设<span class="math inline">\(H_0: \mu \leq 16\)</span> 。</p>
+<p>认为在城市, 油耗均值大于16英里/加仑。</p>
 </section>
-<section id="hwy均值的检验-1" class="slide level2">
+<section id="hwy均值的检验" class="slide level2">
 <h2>2.2 hwy均值的检验</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">gghistostats</span>(mpg, hwy, </span>
@@ -468,13 +466,15 @@
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
+<section id="hwy均值的检验-1" class="slide level2">
+<h2>2.2 hwy均值的检验</h2>
+<p><span class="math inline">\(H_0: \mu \leq 22\)</span></p>
+<p><span class="math inline">\(H_1: \mu &gt; 22\)</span></p>
+<p>拒绝原假设<span class="math inline">\(H_0: \mu \leq 22\)</span> 。</p>
+<p>认为在高速, 油耗均值大于22英里/加仑。</p>
+</section>
 <section id="四驱和前驱城市道路油耗比较" class="slide level2">
 <h2>2.3 四驱和前驱城市道路油耗比较</h2>
-<p><span class="math inline">\(H_0: \mu_4 \geq \mu_f\)</span></p>
-<p><span class="math inline">\(H_1: \mu_4 &lt; \mu_f\)</span></p>
-</section>
-<section id="四驱和前驱城市道路油耗比较两个总体均值的检验" class="slide level2">
-<h2>2.3 四驱和前驱城市道路油耗比较–两个总体均值的检验</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>mpg <span class="sc">%&gt;%</span></span>
 <span id="cb3-2"><a></a>  <span class="fu">filter</span>(drv <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"4"</span>, <span class="st">"f"</span>)) <span class="sc">%&gt;%</span></span>
@@ -490,14 +490,14 @@
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
-<section id="四驱和前驱高速道路油耗比较" class="slide level2">
-<h2>2.4 四驱和前驱高速道路油耗比较</h2>
+<section id="四驱和前驱城市道路油耗比较-1" class="slide level2">
+<h2>2.3 四驱和前驱城市道路油耗比较</h2>
 <p><span class="math inline">\(H_0: \mu_4 \geq \mu_f\)</span></p>
 <p><span class="math inline">\(H_1: \mu_4 &lt; \mu_f\)</span></p>
-<p>拒绝原假设<span class="math inline">\(H_0: \mu_4 \geq \mu_f\)</span>。</p>
+<p>认为在城市, <span class="math inline">\(\mu_4 &lt; \mu_f\)</span>, 前驱(20)比四驱(14)省油。</p>
 </section>
-<section id="四驱和前驱高速道路油耗比较两个总体均值的检验" class="slide level2">
-<h2>2.4 四驱和前驱高速道路油耗比较–两个总体均值的检验</h2>
+<section id="四驱和前驱高速油耗比较" class="slide level2">
+<h2>2.4 四驱和前驱高速油耗比较</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>mpg <span class="sc">%&gt;%</span></span>
 <span id="cb4-2"><a></a>  <span class="fu">filter</span>(drv <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"4"</span>, <span class="st">"f"</span>)) <span class="sc">%&gt;%</span></span>
@@ -513,8 +513,15 @@
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
-<section id="自动档和手动挡城市道路油耗比较两个总体均值的检验" class="slide level2">
-<h2>2.5 自动档和手动挡城市道路油耗比较–两个总体均值的检验</h2>
+<section id="四驱和前驱高速油耗比较-1" class="slide level2">
+<h2>2.4 四驱和前驱高速油耗比较</h2>
+<p><span class="math inline">\(H_0: \mu_4 \geq \mu_f\)</span></p>
+<p><span class="math inline">\(H_1: \mu_4 &lt; \mu_f\)</span></p>
+<p>拒绝原假设<span class="math inline">\(H_0: \mu_4 \geq \mu_f\)</span>。</p>
+<p>认为在高速, <span class="math inline">\(\mu_4 &lt; \mu_f\)</span>, 前驱(28)比四驱(24)省油。</p>
+</section>
+<section id="自动档和手动挡城市道路油耗比较" class="slide level2">
+<h2>2.5 自动档和手动挡城市道路油耗比较</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>mpg <span class="sc">%&gt;%</span> </span>
 <span id="cb5-2"><a></a>  <span class="fu">mutate</span>(<span class="at">transmission =</span> <span class="fu">if_else</span>(<span class="fu">substr</span>(trans, <span class="dv">1</span>, <span class="dv">4</span>) <span class="sc">==</span> <span class="st">"auto"</span>, </span>
@@ -532,8 +539,15 @@
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
-<section id="自动档和手动挡高速道路油耗比较两个总体均值的检验" class="slide level2">
-<h2>2.6 自动档和手动挡高速道路油耗比较–两个总体均值的检验</h2>
+<section id="自动档和手动挡城市道路油耗比较-1" class="slide level2">
+<h2>2.5 自动档和手动挡城市道路油耗比较</h2>
+<p><span class="math inline">\(H_0: \mu_{auto} \geq \mu_{manual}\)</span></p>
+<p><span class="math inline">\(H_1: \mu_{auto} &lt; \mu_{manual}\)</span></p>
+<p>拒绝原假设<span class="math inline">\(H_0: \mu_4 \geq \mu_f\)</span>。</p>
+<p>认为在城市, <span class="math inline">\(\mu_{auto} &lt; \mu_{manual}\)</span> , 手动挡(19)比自动挡(16)省油。</p>
+</section>
+<section id="自动档和手动挡高速油耗比较" class="slide level2">
+<h2>2.6 自动档和手动挡高速油耗比较</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>mpg <span class="sc">%&gt;%</span> </span>
 <span id="cb6-2"><a></a>  <span class="fu">mutate</span>(<span class="at">transmission =</span> <span class="fu">if_else</span>(<span class="fu">substr</span>(trans, <span class="dv">1</span>, <span class="dv">4</span>) <span class="sc">==</span> <span class="st">"auto"</span>, </span>
@@ -551,6 +565,13 @@
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
+<section id="自动档和手动挡高速油耗比较-1" class="slide level2">
+<h2>2.6 自动档和手动挡高速油耗比较</h2>
+<p><span class="math inline">\(H_0: \mu_{auto} \geq \mu_{manual}\)</span></p>
+<p><span class="math inline">\(H_1: \mu_{auto} &lt; \mu_{manual}\)</span></p>
+<p>拒绝原假设<span class="math inline">\(H_0: \mu_4 \geq \mu_f\)</span>。</p>
+<p>认为在高速, <span class="math inline">\(\mu_{auto} &lt; \mu_{manual}\)</span> , 手动挡(26)比自动挡(22)省油。</p>
+</section>
 <section id="驱动类型分布" class="slide level2">
 <h2>3 驱动类型分布</h2>
 <div class="cell">
@@ -568,7 +589,8 @@
 <span id="cb9-6"><a></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="case2pre_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
+<img data-src="case2pre_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"><p>四驱、前驱、后驱：45%，45%， 10%</p>
+</section>
 <section id="驱动类型和传动类型的关系分析" class="slide level2">
 <h2>4 驱动类型和传动类型的关系分析</h2>
 <div class="cell">
@@ -583,7 +605,8 @@
 <span id="cb10-9"><a></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="case2pre_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
+<img data-src="case2pre_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"><p>驱动类型和传动类型相互独立。</p>
+</section>
 <section id="驱动类型和气缸数量的关系分析" class="slide level2">
 <h2>5 驱动类型和气缸数量的关系分析</h2>
 <div class="cell">
@@ -595,7 +618,8 @@
 <span id="cb11-6"><a></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="case2pre_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section>
+<img data-src="case2pre_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"><p>驱动类型和气缸数量不独立。</p>
+</section>
 <section id="研究结论" class="slide level2">
 <h2>6 研究结论</h2>
 <ul>
