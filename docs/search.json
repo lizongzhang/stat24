@@ -207,7 +207,7 @@
     "href": "case2pre.html#cty均值的检验-1",
     "title": "汽车性能分析",
     "section": "2.1 cty均值的检验",
-    "text": "2.1 cty均值的检验\n\\(H_0: \\mu \\leq 16\\)\n\\(H_1: \\mu &gt; 16\\)\n拒绝原假设\\(H_0: \\mu \\leq 16\\) 。\n认为在城市, 油耗均值大于16英里/加仑。"
+    "text": "2.1 cty均值的检验\n\\(H_0: \\mu \\leq 16\\)\n\\(H_1: \\mu &gt; 16\\)\n拒绝原假设\\(H_0: \\mu \\leq 16\\) 。\n在城市, 油耗均值大于16英里/加仑。"
   },
   {
     "objectID": "case2pre.html#hwy均值的检验",
@@ -221,7 +221,7 @@
     "href": "case2pre.html#hwy均值的检验-1",
     "title": "汽车性能分析",
     "section": "2.2 hwy均值的检验",
-    "text": "2.2 hwy均值的检验\n\\(H_0: \\mu \\leq 22\\)\n\\(H_1: \\mu &gt; 22\\)\n拒绝原假设\\(H_0: \\mu \\leq 22\\) 。\n认为在高速, 油耗均值大于22英里/加仑。"
+    "text": "2.2 hwy均值的检验\n\\(H_0: \\mu \\leq 22\\)\n\\(H_1: \\mu &gt; 22\\)\n拒绝原假设\\(H_0: \\mu \\leq 22\\) 。\n在高速, 油耗均值大于22英里/加仑。"
   },
   {
     "objectID": "case2pre.html#四驱和前驱城市道路油耗比较",
@@ -284,7 +284,7 @@
     "href": "case2pre.html#驱动类型和气缸数量的关系分析",
     "title": "汽车性能分析",
     "section": "5 驱动类型和气缸数量的关系分析",
-    "text": "5 驱动类型和气缸数量的关系分析\n\nggbarstats(mpg,\n           drv,\n           cyl,\n           package = \"RColorBrewer\",\n           palette = \"Paired\")+\n  theme_bw(base_size = 15)\n\n\n驱动类型和气缸数量不独立。"
+    "text": "5 驱动类型和气缸数量的关系分析\n\nggbarstats(mpg,\n           drv,\n           cyl,\n           package = \"RColorBrewer\",\n           palette = \"Paired\")+\n  theme_bw(base_size = 15)\n\n\n驱动类型和气缸数量不独立。\n4缸，72%前驱，28%四驱; 6缸，54%前驱， 41%四驱，5%后驱; 8缸，1%前驱， 69%四驱，30%后驱。"
   },
   {
     "objectID": "case2pre.html#研究结论",
@@ -543,7 +543,7 @@
     "href": "case2pre.html#四驱和前驱城市道路油耗比较-1",
     "title": "汽车性能分析",
     "section": "2.3 四驱和前驱城市道路油耗比较",
-    "text": "2.3 四驱和前驱城市道路油耗比较\n\\(H_0: \\mu_4 \\geq \\mu_f\\)\n\\(H_1: \\mu_4 &lt; \\mu_f\\)\n认为在城市, \\(\\mu_4 &lt; \\mu_f\\), 前驱(20)比四驱(14)省油。"
+    "text": "2.3 四驱和前驱城市道路油耗比较\n\\(H_0: \\mu_4 \\geq \\mu_f\\)\n\\(H_1: \\mu_4 &lt; \\mu_f\\)\n在城市, \\(\\mu_4 &lt; \\mu_f\\), 前驱(20)比四驱(14)省油。"
   },
   {
     "objectID": "case2pre.html#四驱和前驱高速油耗比较",
@@ -564,7 +564,7 @@
     "href": "case2pre.html#自动档和手动挡城市道路油耗比较-1",
     "title": "汽车性能分析",
     "section": "2.5 自动档和手动挡城市道路油耗比较",
-    "text": "2.5 自动档和手动挡城市道路油耗比较\n\\(H_0: \\mu_{auto} \\geq \\mu_{manual}\\)\n\\(H_1: \\mu_{auto} &lt; \\mu_{manual}\\)\n拒绝原假设\\(H_0: \\mu_4 \\geq \\mu_f\\)。\n认为在城市, \\(\\mu_{auto} &lt; \\mu_{manual}\\) , 手动挡(19)比自动挡(16)省油。"
+    "text": "2.5 自动档和手动挡城市道路油耗比较\n\\(H_0: \\mu_{auto} \\geq \\mu_{manual}\\)\n\\(H_1: \\mu_{auto} &lt; \\mu_{manual}\\)\n拒绝原假设\\(H_0: \\mu_4 \\geq \\mu_f\\)。\n在城市, \\(\\mu_{auto} &lt; \\mu_{manual}\\) , 手动挡(19)比自动挡(16)省油。"
   },
   {
     "objectID": "case2pre.html#自动档和手动挡高速油耗比较",
@@ -578,13 +578,13 @@
     "href": "case2pre.html#自动档和手动挡高速油耗比较-1",
     "title": "汽车性能分析",
     "section": "2.6 自动档和手动挡高速油耗比较",
-    "text": "2.6 自动档和手动挡高速油耗比较\n\\(H_0: \\mu_{auto} \\geq \\mu_{manual}\\)\n\\(H_1: \\mu_{auto} &lt; \\mu_{manual}\\)\n拒绝原假设\\(H_0: \\mu_4 \\geq \\mu_f\\)。\n认为在高速, \\(\\mu_{auto} &lt; \\mu_{manual}\\) , 手动挡(26)比自动挡(22)省油。"
+    "text": "2.6 自动档和手动挡高速油耗比较\n\\(H_0: \\mu_{auto} \\geq \\mu_{manual}\\)\n\\(H_1: \\mu_{auto} &lt; \\mu_{manual}\\)\n拒绝原假设\\(H_0: \\mu_4 \\geq \\mu_f\\)。\n在高速, \\(\\mu_{auto} &lt; \\mu_{manual}\\) , 手动挡(26)比自动挡(22)省油。"
   },
   {
     "objectID": "case2pre.html#四驱和前驱高速油耗比较-1",
     "href": "case2pre.html#四驱和前驱高速油耗比较-1",
     "title": "汽车性能分析",
     "section": "2.4 四驱和前驱高速油耗比较",
-    "text": "2.4 四驱和前驱高速油耗比较\n\\(H_0: \\mu_4 \\geq \\mu_f\\)\n\\(H_1: \\mu_4 &lt; \\mu_f\\)\n拒绝原假设\\(H_0: \\mu_4 \\geq \\mu_f\\)。\n认为在高速, \\(\\mu_4 &lt; \\mu_f\\), 前驱(28)比四驱(24)省油。"
+    "text": "2.4 四驱和前驱高速油耗比较\n\\(H_0: \\mu_4 \\geq \\mu_f\\)\n\\(H_1: \\mu_4 &lt; \\mu_f\\)\n拒绝原假设\\(H_0: \\mu_4 \\geq \\mu_f\\)。\n在高速, \\(\\mu_4 &lt; \\mu_f\\), 前驱(28)比四驱(24)省油。"
   }
 ]
