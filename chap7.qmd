@@ -1,0 +1,26 @@
+---
+title: "第7章"
+---
+
+<h1 style="color: #044875;"> 第7章 区间估计 </h1>
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[讲义](https://lizongzhang.github.io/stat/chap7.html)
+
+<h3 style="color: #044875;"> 教学视频 </h3>
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[总体均值的置信区间是如何构造的？](https://www.bilibili.com/video/BV1j64y1f7rY/)
+            
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[总体方差的置信区间是如何构造的？](https://www.bilibili.com/video/BV1PV411h7rP/)
+
+
+
+<h3 style="color: #044875;"> 习题讲评 </h3>
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第7章教材习题7.1-7.4](https://www.bilibili.com/video/BV1RX4y147gw/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第7章教材习题7.5-7.10](https://www.bilibili.com/video/BV1Fo4y1P7b5/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel数值模拟： 什么是置信水平？你的理解正确吗？](https://www.bilibili.com/video/BV1eM411D7Va/)
+
+<h3 style="color: #044875;"> 拓展资源 </h3>
+

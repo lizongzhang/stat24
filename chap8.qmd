@@ -1,0 +1,50 @@
+---
+title: "第8章"
+---
+
+<h1 style="color: #044875;"> 第8章 假设检验 </h1>
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[讲义](https://lizongzhang.github.io/stat/chap8.html)
+
+<h3 style="color: #044875;"> 教学视频 </h3>
+
+<h4 style="color: #044875; font-size: 20px;"> 理论知识难点 </h4>
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[什么是P值](https://www.bilibili.com/video/BV1F64y1C7nq/?p=1) 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[显著性水平和P值的区别](https://www.bilibili.com/video/BV1F64y1C7nq/?p=2) 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[总体均值的检验：Z检验还是T检验](https://www.bilibili.com/video/BV1F64y1C7nq/?p=3) 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[单侧检验还是双侧检验](https://www.bilibili.com/video/BV1F64y1C7nq/?p=4) 
+
+<h4 style="color: #044875; font-size: 20px;"> Excel操作 </h4>
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的Z检验：Z.test函数](https://www.bilibili.com/video/BV1L54y1r73w/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的T检验](https://www.bilibili.com/video/BV1uv411r7ws/)
+        
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的T检验：P值法和临界值法](https://www.bilibili.com/video/BV1mr4y1w7yp/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 两个总体方差比的F检验](https://www.bilibili.com/video/BV1Zr4y1F7jK/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 两个总体均值是否相等的T检验](https://www.bilibili.com/video/BV16Z4y137HV/) 
+        
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 匹配样本的T检验](https://www.bilibili.com/video/BV1mD4y1Q77U/) 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel图表工具合集](https://www.bilibili.com/video/BV1uK4y1X752/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL数据清洗合集](https://www.bilibili.com/video/BV1uc41177Mn/)
+
+<h3 style="color: #044875;"> 习题讲评 </h3>
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第8章教材习题8.1-8.8](https://www.bilibili.com/video/BV1dM4y1t7Xw/)  
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第8章教材习题8.9-8.15](https://www.bilibili.com/video/BV12h411L74S/) 
+
+<h3 style="color: #044875;"> 拓展资源 </h3>
+
+
+
+    
+ 

@@ -1,0 +1,35 @@
+---
+title: "第2章"
+---
+
+# 第2章 数据的搜集
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[讲义](https://lizongzhang.github.io/stat/chap2.html){target="_blank"}
+
+
+## 教学视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何从中国知网下载统计数据？](https://www.bilibili.com/video/BV19m4y1F7FE/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[八爪鱼客户端抓取网页数据？](https://www.bilibili.com/video/BV18u411D7GM/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何用Excel整理提取的网页数据？](https://www.bilibili.com/video/BV1HL411N7BG/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何加载EXCEL数据分析加载项？](https://www.bilibili.com/video/BV19S4y1r7E4/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何将WORD文档转成图片？](https://www.bilibili.com/video/BV1GU4y1f7f9/)
+
+## 数据资源
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">CSMAR 国泰安经济金融数据库  <http://www.gtarsc.com/Home>
+        
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中国家庭追踪调查 CFPS <http://www.isss.pku.edu.cn/cfps/>
+    
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中国家庭金融调查数据 CHFS  <https://chfs.swufe.edu.cn>
+    
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中国健康与养老数据追踪调查数据CHARLS <http://charls.pku.edu.cn>
+    
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">暨南大学社会调查中心  <https://sdc-iesr.jnu.edu.cn>
+    
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">Kaggle  <https://www.kaggle.com/datasets>
+
