@@ -291,14 +291,14 @@
     "href": "case2pre.html#研究结论",
     "title": "汽车性能分析",
     "section": "6 研究结论",
-    "text": "6 研究结论\n\n油耗：城市道路均值&gt;16 miles/gallon, 高速均值&gt;22 miles/gallon\n城市道路：四驱(14 miles/gallon) &lt; 前驱(20 miles/gallon)\n高速道路：四驱(20 miles/gallon) &lt; 前驱(29 miles/gallon)\n城市道路：自动挡(16 miles/gallon) &lt; 手动挡(19 miles/gallon)\n高速道路：四驱(22 miles/gallon) &lt; 前驱(26 miles/gallon)"
+    "text": "6 研究结论\n\n油耗(单位：miles per gallon 英里每加仑), 数值越大代表越省油\n城市均值 &gt; 16, 高速均值 &gt; 22\n城市：四驱(14) &lt; 前驱(20)\n高速：四驱(20) &lt; 前驱(29)\n城市：自动挡(16) &lt; 手动挡(19)\n高速：四驱(22) &lt; 前驱(26 )"
   },
   {
     "objectID": "case2pre.html#研究结论-1",
     "href": "case2pre.html#研究结论-1",
     "title": "汽车性能分析",
     "section": "6 研究结论",
-    "text": "6 研究结论\n\n油耗：城市道路大于高速\n油耗：四驱大于前驱，高速路比城市道路的差距更大。\n油耗：自动档大于手动挡，高速路比城市道路的差距更大"
+    "text": "6 研究结论\n\n高速比城市道路省油\n前驱比四驱省油，高速(9)比城市(6)的差距更大。\n手动挡比自动档省油，高速(4)比城市(3)的差距更大。"
   },
   {
     "objectID": "case2pre.html#section",
