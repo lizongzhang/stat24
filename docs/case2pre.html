@@ -434,14 +434,23 @@
 <p>2.5 自动档和手动挡城市油耗比较</p>
 <p>2.5 自动档和手动挡高速油耗比较</p>
 </section>
+<section>
+<section id="加载包和调用数据" class="title-slide slide level1 center">
+<h1>加载包和调用数据</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a></a><span class="fu">library</span>(ggstatsplot)</span>
+<span id="cb1-3"><a></a><span class="fu">data</span>(mpg)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
 <section id="cty均值的检验" class="slide level2">
 <h2>2.1 cty均值的检验</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">gghistostats</span>(mpg, cty, </span>
-<span id="cb1-2"><a></a>             <span class="at">test.value =</span> <span class="dv">16</span>,</span>
-<span id="cb1-3"><a></a>             <span class="at">bin.args =</span> <span class="fu">list</span>(<span class="at">color =</span> <span class="st">"black"</span>,</span>
-<span id="cb1-4"><a></a>                             <span class="at">fill =</span> <span class="st">"cyan"</span>)) <span class="sc">+</span></span>
-<span id="cb1-5"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">gghistostats</span>(mpg, cty, </span>
+<span id="cb2-2"><a></a>             <span class="at">test.value =</span> <span class="dv">16</span>,</span>
+<span id="cb2-3"><a></a>             <span class="at">bin.args =</span> <span class="fu">list</span>(<span class="at">color =</span> <span class="st">"black"</span>,</span>
+<span id="cb2-4"><a></a>                             <span class="at">fill =</span> <span class="st">"cyan"</span>)) <span class="sc">+</span></span>
+<span id="cb2-5"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
@@ -455,14 +464,14 @@
 <section id="hwy均值的检验" class="slide level2">
 <h2>2.2 hwy均值的检验</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">gghistostats</span>(mpg, hwy, </span>
-<span id="cb2-2"><a></a>             <span class="at">test.value =</span> <span class="dv">22</span>,</span>
-<span id="cb2-3"><a></a>             <span class="at">bin.args =</span> <span class="fu">list</span>(<span class="at">color =</span> <span class="st">"grey"</span>,</span>
-<span id="cb2-4"><a></a>                             <span class="at">fill =</span> <span class="st">"purple"</span>),</span>
-<span id="cb2-5"><a></a>             <span class="at">centrality.line.args =</span> <span class="fu">list</span>(<span class="at">color =</span> <span class="st">"red"</span>, </span>
-<span id="cb2-6"><a></a>                                         <span class="at">linewidth =</span> <span class="dv">1</span>, </span>
-<span id="cb2-7"><a></a>                                         <span class="at">linetype =</span> <span class="st">"dashed"</span>)) <span class="sc">+</span></span>
-<span id="cb2-8"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">gghistostats</span>(mpg, hwy, </span>
+<span id="cb3-2"><a></a>             <span class="at">test.value =</span> <span class="dv">22</span>,</span>
+<span id="cb3-3"><a></a>             <span class="at">bin.args =</span> <span class="fu">list</span>(<span class="at">color =</span> <span class="st">"grey"</span>,</span>
+<span id="cb3-4"><a></a>                             <span class="at">fill =</span> <span class="st">"purple"</span>),</span>
+<span id="cb3-5"><a></a>             <span class="at">centrality.line.args =</span> <span class="fu">list</span>(<span class="at">color =</span> <span class="st">"red"</span>, </span>
+<span id="cb3-6"><a></a>                                         <span class="at">linewidth =</span> <span class="dv">1</span>, </span>
+<span id="cb3-7"><a></a>                                         <span class="at">linetype =</span> <span class="st">"dashed"</span>)) <span class="sc">+</span></span>
+<span id="cb3-8"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
@@ -476,17 +485,17 @@
 <section id="四驱和前驱城市道路油耗比较" class="slide level2">
 <h2>2.3 四驱和前驱城市道路油耗比较</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>mpg <span class="sc">%&gt;%</span></span>
-<span id="cb3-2"><a></a>  <span class="fu">filter</span>(drv <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"4"</span>, <span class="st">"f"</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb3-3"><a></a>  <span class="fu">ggbetweenstats</span>(drv, </span>
-<span id="cb3-4"><a></a>                 cty,</span>
-<span id="cb3-5"><a></a>                 <span class="at">p.adjust.method =</span> <span class="st">"none"</span>,</span>
-<span id="cb3-6"><a></a>                 <span class="at">xlab =</span> <span class="st">"drive"</span>,</span>
-<span id="cb3-7"><a></a>                 <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
-<span id="cb3-8"><a></a>                 <span class="at">palette =</span> <span class="st">"Set1"</span>,</span>
-<span id="cb3-9"><a></a>                 <span class="at">violin.args =</span> <span class="fu">list</span>(<span class="at">width =</span> <span class="dv">0</span>)</span>
-<span id="cb3-10"><a></a>  ) <span class="sc">+</span></span>
-<span id="cb3-11"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>mpg <span class="sc">%&gt;%</span></span>
+<span id="cb4-2"><a></a>  <span class="fu">filter</span>(drv <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"4"</span>, <span class="st">"f"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb4-3"><a></a>  <span class="fu">ggbetweenstats</span>(drv, </span>
+<span id="cb4-4"><a></a>                 cty,</span>
+<span id="cb4-5"><a></a>                 <span class="at">p.adjust.method =</span> <span class="st">"none"</span>,</span>
+<span id="cb4-6"><a></a>                 <span class="at">xlab =</span> <span class="st">"drive"</span>,</span>
+<span id="cb4-7"><a></a>                 <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
+<span id="cb4-8"><a></a>                 <span class="at">palette =</span> <span class="st">"Set1"</span>,</span>
+<span id="cb4-9"><a></a>                 <span class="at">violin.args =</span> <span class="fu">list</span>(<span class="at">width =</span> <span class="dv">0</span>)</span>
+<span id="cb4-10"><a></a>  ) <span class="sc">+</span></span>
+<span id="cb4-11"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
@@ -499,17 +508,17 @@
 <section id="四驱和前驱高速油耗比较" class="slide level2">
 <h2>2.4 四驱和前驱高速油耗比较</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>mpg <span class="sc">%&gt;%</span></span>
-<span id="cb4-2"><a></a>  <span class="fu">filter</span>(drv <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"4"</span>, <span class="st">"f"</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb4-3"><a></a>  <span class="fu">ggbetweenstats</span>(drv, </span>
-<span id="cb4-4"><a></a>                 hwy,</span>
-<span id="cb4-5"><a></a>                 <span class="at">p.adjust.method =</span> <span class="st">"none"</span>,</span>
-<span id="cb4-6"><a></a>                 <span class="at">xlab =</span> <span class="st">"drive"</span>,</span>
-<span id="cb4-7"><a></a>                 <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
-<span id="cb4-8"><a></a>                 <span class="at">palette =</span> <span class="st">"Set1"</span>,</span>
-<span id="cb4-9"><a></a>                 <span class="at">violin.args =</span> <span class="fu">list</span>(<span class="at">width =</span> <span class="dv">0</span>)</span>
-<span id="cb4-10"><a></a>                 ) <span class="sc">+</span></span>
-<span id="cb4-11"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>mpg <span class="sc">%&gt;%</span></span>
+<span id="cb5-2"><a></a>  <span class="fu">filter</span>(drv <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"4"</span>, <span class="st">"f"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb5-3"><a></a>  <span class="fu">ggbetweenstats</span>(drv, </span>
+<span id="cb5-4"><a></a>                 hwy,</span>
+<span id="cb5-5"><a></a>                 <span class="at">p.adjust.method =</span> <span class="st">"none"</span>,</span>
+<span id="cb5-6"><a></a>                 <span class="at">xlab =</span> <span class="st">"drive"</span>,</span>
+<span id="cb5-7"><a></a>                 <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
+<span id="cb5-8"><a></a>                 <span class="at">palette =</span> <span class="st">"Set1"</span>,</span>
+<span id="cb5-9"><a></a>                 <span class="at">violin.args =</span> <span class="fu">list</span>(<span class="at">width =</span> <span class="dv">0</span>)</span>
+<span id="cb5-10"><a></a>                 ) <span class="sc">+</span></span>
+<span id="cb5-11"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
@@ -523,19 +532,19 @@
 <section id="自动档和手动挡城市道路油耗比较" class="slide level2">
 <h2>2.5 自动档和手动挡城市道路油耗比较</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>mpg <span class="sc">%&gt;%</span> </span>
-<span id="cb5-2"><a></a>  <span class="fu">mutate</span>(<span class="at">transmission =</span> <span class="fu">if_else</span>(<span class="fu">substr</span>(trans, <span class="dv">1</span>, <span class="dv">4</span>) <span class="sc">==</span> <span class="st">"auto"</span>, </span>
-<span id="cb5-3"><a></a>                                <span class="st">"automatic"</span>, </span>
-<span id="cb5-4"><a></a>                                <span class="st">"manual"</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-5"><a></a>  <span class="fu">ggbetweenstats</span>(transmission, </span>
-<span id="cb5-6"><a></a>                 cty,</span>
-<span id="cb5-7"><a></a>                 <span class="at">p.adjust.method =</span> <span class="st">"none"</span>,</span>
-<span id="cb5-8"><a></a>                 <span class="at">xlab =</span> <span class="st">"drive"</span>,</span>
-<span id="cb5-9"><a></a>                 <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
-<span id="cb5-10"><a></a>                 <span class="at">palette =</span> <span class="st">"Set1"</span>,</span>
-<span id="cb5-11"><a></a>                 <span class="at">violin.args =</span> <span class="fu">list</span>(<span class="at">width =</span> <span class="dv">0</span>)</span>
-<span id="cb5-12"><a></a>                 ) <span class="sc">+</span></span>
-<span id="cb5-13"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>mpg <span class="sc">%&gt;%</span> </span>
+<span id="cb6-2"><a></a>  <span class="fu">mutate</span>(<span class="at">transmission =</span> <span class="fu">if_else</span>(<span class="fu">substr</span>(trans, <span class="dv">1</span>, <span class="dv">4</span>) <span class="sc">==</span> <span class="st">"auto"</span>, </span>
+<span id="cb6-3"><a></a>                                <span class="st">"automatic"</span>, </span>
+<span id="cb6-4"><a></a>                                <span class="st">"manual"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-5"><a></a>  <span class="fu">ggbetweenstats</span>(transmission, </span>
+<span id="cb6-6"><a></a>                 cty,</span>
+<span id="cb6-7"><a></a>                 <span class="at">p.adjust.method =</span> <span class="st">"none"</span>,</span>
+<span id="cb6-8"><a></a>                 <span class="at">xlab =</span> <span class="st">"drive"</span>,</span>
+<span id="cb6-9"><a></a>                 <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
+<span id="cb6-10"><a></a>                 <span class="at">palette =</span> <span class="st">"Set1"</span>,</span>
+<span id="cb6-11"><a></a>                 <span class="at">violin.args =</span> <span class="fu">list</span>(<span class="at">width =</span> <span class="dv">0</span>)</span>
+<span id="cb6-12"><a></a>                 ) <span class="sc">+</span></span>
+<span id="cb6-13"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
@@ -549,19 +558,19 @@
 <section id="自动档和手动挡高速油耗比较" class="slide level2">
 <h2>2.6 自动档和手动挡高速油耗比较</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>mpg <span class="sc">%&gt;%</span> </span>
-<span id="cb6-2"><a></a>  <span class="fu">mutate</span>(<span class="at">transmission =</span> <span class="fu">if_else</span>(<span class="fu">substr</span>(trans, <span class="dv">1</span>, <span class="dv">4</span>) <span class="sc">==</span> <span class="st">"auto"</span>, </span>
-<span id="cb6-3"><a></a>                                <span class="st">"automatic"</span>, </span>
-<span id="cb6-4"><a></a>                                <span class="st">"manual"</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb6-5"><a></a>  <span class="fu">ggbetweenstats</span>(transmission, </span>
-<span id="cb6-6"><a></a>                 hwy,</span>
-<span id="cb6-7"><a></a>                 <span class="at">p.adjust.method =</span> <span class="st">"none"</span>,</span>
-<span id="cb6-8"><a></a>                 <span class="at">xlab =</span> <span class="st">"drive"</span>,</span>
-<span id="cb6-9"><a></a>                 <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
-<span id="cb6-10"><a></a>                 <span class="at">palette =</span> <span class="st">"Set1"</span>,</span>
-<span id="cb6-11"><a></a>                 <span class="at">violin.args =</span> <span class="fu">list</span>(<span class="at">width =</span> <span class="dv">0</span>)</span>
-<span id="cb6-12"><a></a>                 ) <span class="sc">+</span></span>
-<span id="cb6-13"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a>mpg <span class="sc">%&gt;%</span> </span>
+<span id="cb7-2"><a></a>  <span class="fu">mutate</span>(<span class="at">transmission =</span> <span class="fu">if_else</span>(<span class="fu">substr</span>(trans, <span class="dv">1</span>, <span class="dv">4</span>) <span class="sc">==</span> <span class="st">"auto"</span>, </span>
+<span id="cb7-3"><a></a>                                <span class="st">"automatic"</span>, </span>
+<span id="cb7-4"><a></a>                                <span class="st">"manual"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-5"><a></a>  <span class="fu">ggbetweenstats</span>(transmission, </span>
+<span id="cb7-6"><a></a>                 hwy,</span>
+<span id="cb7-7"><a></a>                 <span class="at">p.adjust.method =</span> <span class="st">"none"</span>,</span>
+<span id="cb7-8"><a></a>                 <span class="at">xlab =</span> <span class="st">"drive"</span>,</span>
+<span id="cb7-9"><a></a>                 <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
+<span id="cb7-10"><a></a>                 <span class="at">palette =</span> <span class="st">"Set1"</span>,</span>
+<span id="cb7-11"><a></a>                 <span class="at">violin.args =</span> <span class="fu">list</span>(<span class="at">width =</span> <span class="dv">0</span>)</span>
+<span id="cb7-12"><a></a>                 ) <span class="sc">+</span></span>
+<span id="cb7-13"><a></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
@@ -575,18 +584,18 @@
 <section id="驱动类型分布" class="slide level2">
 <h2>3 驱动类型分布</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="fu">table</span>(mpg<span class="sc">$</span>drv) <span class="sc">%&gt;%</span> <span class="fu">prop.table</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a><span class="fu">table</span>(mpg<span class="sc">$</span>drv) <span class="sc">%&gt;%</span> <span class="fu">prop.table</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
         4         f         r 
 0.4401709 0.4529915 0.1068376 </code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a><span class="fu">ggpiestats</span>(mpg,</span>
-<span id="cb9-2"><a></a>           drv,</span>
-<span id="cb9-3"><a></a>           <span class="at">ratio =</span> <span class="fu">c</span>(<span class="fl">0.45</span>, <span class="fl">0.45</span>, <span class="fl">0.1</span>),</span>
-<span id="cb9-4"><a></a>           <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
-<span id="cb9-5"><a></a>           <span class="at">palette =</span> <span class="st">"Set2"</span>)<span class="sc">+</span></span>
-<span id="cb9-6"><a></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">ggpiestats</span>(mpg,</span>
+<span id="cb10-2"><a></a>           drv,</span>
+<span id="cb10-3"><a></a>           <span class="at">ratio =</span> <span class="fu">c</span>(<span class="fl">0.45</span>, <span class="fl">0.45</span>, <span class="fl">0.1</span>),</span>
+<span id="cb10-4"><a></a>           <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
+<span id="cb10-5"><a></a>           <span class="at">palette =</span> <span class="st">"Set2"</span>)<span class="sc">+</span></span>
+<span id="cb10-6"><a></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"><p>四驱、前驱、后驱：45%，45%， 10%</p>
@@ -594,15 +603,15 @@
 <section id="驱动类型和传动类型的关系分析" class="slide level2">
 <h2>4 驱动类型和传动类型的关系分析</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a>mpg <span class="sc">%&gt;%</span> </span>
-<span id="cb10-2"><a></a>  <span class="fu">mutate</span>(<span class="at">transmission =</span> <span class="fu">if_else</span>(<span class="fu">substr</span>(trans, <span class="dv">1</span>, <span class="dv">4</span>) <span class="sc">==</span> <span class="st">"auto"</span>, </span>
-<span id="cb10-3"><a></a>                                <span class="st">"automatic"</span>, </span>
-<span id="cb10-4"><a></a>                                <span class="st">"manual"</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb10-5"><a></a>  <span class="fu">ggbarstats</span>(drv,</span>
-<span id="cb10-6"><a></a>             transmission,</span>
-<span id="cb10-7"><a></a>             <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
-<span id="cb10-8"><a></a>             <span class="at">palette =</span> <span class="st">"Paired"</span>)<span class="sc">+</span></span>
-<span id="cb10-9"><a></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a>mpg <span class="sc">%&gt;%</span> </span>
+<span id="cb11-2"><a></a>  <span class="fu">mutate</span>(<span class="at">transmission =</span> <span class="fu">if_else</span>(<span class="fu">substr</span>(trans, <span class="dv">1</span>, <span class="dv">4</span>) <span class="sc">==</span> <span class="st">"auto"</span>, </span>
+<span id="cb11-3"><a></a>                                <span class="st">"automatic"</span>, </span>
+<span id="cb11-4"><a></a>                                <span class="st">"manual"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-5"><a></a>  <span class="fu">ggbarstats</span>(drv,</span>
+<span id="cb11-6"><a></a>             transmission,</span>
+<span id="cb11-7"><a></a>             <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
+<span id="cb11-8"><a></a>             <span class="at">palette =</span> <span class="st">"Paired"</span>)<span class="sc">+</span></span>
+<span id="cb11-9"><a></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"><p>驱动类型和传动类型相互独立。</p>
@@ -610,12 +619,12 @@
 <section id="驱动类型和气缸数量的关系分析" class="slide level2">
 <h2>5 驱动类型和气缸数量的关系分析</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="fu">ggbarstats</span>(mpg,</span>
-<span id="cb11-2"><a></a>           drv,</span>
-<span id="cb11-3"><a></a>           cyl,</span>
-<span id="cb11-4"><a></a>           <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
-<span id="cb11-5"><a></a>           <span class="at">palette =</span> <span class="st">"Paired"</span>)<span class="sc">+</span></span>
-<span id="cb11-6"><a></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="fu">ggbarstats</span>(mpg,</span>
+<span id="cb12-2"><a></a>           drv,</span>
+<span id="cb12-3"><a></a>           cyl,</span>
+<span id="cb12-4"><a></a>           <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
+<span id="cb12-5"><a></a>           <span class="at">palette =</span> <span class="st">"Paired"</span>)<span class="sc">+</span></span>
+<span id="cb12-6"><a></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="case2pre_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"><p>驱动类型和气缸数量不独立。</p>
@@ -652,7 +661,7 @@
 <li><p>8缸，1%前驱， 69%四驱，30%后驱</p></li>
 </ul></li>
 </ul>
-</section>
+</section></section>
 <section>
 <section id="经验分享" class="title-slide slide level1 center">
 <h1>7 经验分享</h1>

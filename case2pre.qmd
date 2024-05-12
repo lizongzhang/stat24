@@ -17,13 +17,7 @@ format:
     code-block-height: 150px
 ---
 
-```{r}
-#| echo: FALSE
-library(tidyverse)
-data(mpg)
 
-library(ggstatsplot)
-```
 
 ## 1 数据和变量
 
@@ -60,6 +54,18 @@ drv: the type of drive train,
 2.5 自动档和手动挡城市油耗比较
 
 2.5 自动档和手动挡高速油耗比较
+
+
+# 加载包和调用数据
+
+```{r}
+#| echo: true
+#| message: false
+library(tidyverse)
+library(ggstatsplot)
+data(mpg)
+
+```
 
 ## 2.1 cty均值的检验
 
