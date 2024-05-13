@@ -270,7 +270,7 @@
     "href": "case2pre.html#驱动类型分布",
     "title": "汽车性能分析",
     "section": "3 驱动类型分布",
-    "text": "3 驱动类型分布\n\ntable(mpg$drv) %&gt;% prop.table()\n\n\n        4         f         r \n0.4401709 0.4529915 0.1068376 \n\nggpiestats(mpg,\n           drv,\n           ratio = c(0.45, 0.45, 0.1),\n           package = \"RColorBrewer\",\n           palette = \"Set2\")+\n  theme_bw(base_size = 15)\n\n\n四驱、前驱、后驱：45%，45%， 10%"
+    "text": "3 驱动类型分布\n\n#计算三种驱动的百分比\nround(100*prop.table(table(mpg$drv)))\n\n\n 4  f  r \n44 45 11 \n\nggpiestats(mpg,\n           drv,\n           ratio = c(0.45, 0.45, 0.1),\n           package = \"RColorBrewer\",\n           palette = \"Set2\")+\n  theme_bw(base_size = 15)\n\n\n四驱、前驱、后驱：45%，45%， 10%"
   },
   {
     "objectID": "case2pre.html#驱动类型和传动类型的关系分析",

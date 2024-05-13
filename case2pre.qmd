@@ -230,7 +230,8 @@ $H_1: \mu_{auto} < \mu_{manual}$
 
 ```{r}
 #| echo: TRUE
-table(mpg$drv) %>% prop.table()
+#计算三种驱动的百分比
+round(100*prop.table(table(mpg$drv)))
 
 ggpiestats(mpg,
            drv,

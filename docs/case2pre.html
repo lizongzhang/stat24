@@ -584,11 +584,12 @@
 <section id="驱动类型分布" class="slide level2">
 <h2>3 驱动类型分布</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a><span class="fu">table</span>(mpg<span class="sc">$</span>drv) <span class="sc">%&gt;%</span> <span class="fu">prop.table</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a><span class="co">#计算三种驱动的百分比</span></span>
+<span id="cb8-2"><a></a><span class="fu">round</span>(<span class="dv">100</span><span class="sc">*</span><span class="fu">prop.table</span>(<span class="fu">table</span>(mpg<span class="sc">$</span>drv)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
-        4         f         r 
-0.4401709 0.4529915 0.1068376 </code></pre>
+ 4  f  r 
+44 45 11 </code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">ggpiestats</span>(mpg,</span>
 <span id="cb10-2"><a></a>           drv,</span>
