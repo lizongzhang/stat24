@@ -14,7 +14,7 @@ format:
     css: styles.css
     footer: <https://lizongzhang.github.io/stat24>
     include-before-body: header.html
-    code-block-height: 150px
+    code-block-height: 100px
 ---
 
 
@@ -71,12 +71,16 @@ data(mpg)
 
 ```{r}
 #| echo: TRUE
+#| fig-width: 15
+#| fig-height: 8
 gghistostats(mpg, cty, 
              test.value = 16,
              bin.args = list(color = "black",
                              fill = "cyan")) +
   theme_classic(base_size = 15)
 ```
+
+
 
 ## 2.1 cty均值的检验
 
@@ -272,9 +276,15 @@ ggbarstats(mpg,
   theme_bw(base_size = 15)
 ```
 
+## 5 驱动类型和气缸数量的关系分析
+
 驱动类型和气缸数量不独立。
 
-4缸，72%前驱，28%四驱; 6缸，54%前驱， 41%四驱，5%后驱; 8缸，1%前驱， 69%四驱，30%后驱。
+4缸，72%前驱，28%四驱; 
+
+6缸，54%前驱， 41%四驱，5%后驱; 
+
+8缸，1%前驱， 69%四驱，30%后驱。
 
 ## 6 研究结论
 
